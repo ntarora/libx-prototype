@@ -1,0 +1,26 @@
+Design notes:
+
+Technologies:
+	- Webpack 2.0 for building one file
+	- es6 for syntax and classes
+	- DOM tree walker - treeWalker
+	- Promises for async
+
+
+TODO:
+	- Find a way to inject the JS code on they fly in the extension, look into tamper monkey. Debugging with source map is crucial
+	- When a node is found yield the node and process
+	- When finding nodes, return a node wrapped in promise through a generator
+	- Then pass to textTransformer
+	- Requirements to get inside the FF store
+
+
+Overall Design Pattern:
+
+	- Loader loads the modules, both 'apps' and 'utilities' (treeWalker, etc)
+	- Loader sends regex Patterns to the walker
+	- walker find nodes that match, pass them to the 'loader/app' for processing
+	- the app then uses 'textTransformer' to manipulate the node
+	-'App' then adds functionality to new nodes and passes it
+	- the new nodes, are then passed into a another util to be placed in the DOM
+

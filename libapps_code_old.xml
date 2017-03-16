@@ -1,0 +1,4047 @@
+//LIBAPPS CODE
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://libx.org/libx2/libapps</id>
+  <atom:updated xmlns:atom="http://www.w3.org/2005/Atom">2015-08-17T11:49:36.357-04:00</atom:updated>
+  <title>LibX Core Feed</title>
+  <author>
+    <name>LibX Team</name>
+    <uri>http://libx.org/</uri>
+    <email>libx.editions@gmail.com</email>
+  </author>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/libxcore</id>
+    <title>LibX Core Package</title>
+    <updated>2012-12-20T16:12:37-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">The default LibX 2.0 package</content>
+    <libx:package>
+      <libx:entry src="146">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="147">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="148">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="150">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="151">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="144">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:package>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/146</id>
+    <title>LibX Core Autolinking</title>
+    <updated>2012-08-15T17:25:35-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Contains LibApps that autolink identifiers.</content>
+    <libx:package>
+      <libx:entry src="159">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="163">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="122">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="230">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="247">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:package>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/147</id>
+    <title>Full-Text Linker</title>
+    <updated>2012-10-14T19:28:00-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Contains LibApps that insert full-text url's in web-content of specific journals</content>
+    <libx:package>
+      <libx:entry src="168">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="128">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="138">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:package>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/148</id>
+    <title>OpenUrl for Google Scholar</title>
+    <updated>2012-04-16T02:15:20-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Find OpenUrls in Google Scholar page</content>
+    <libx:libapp>
+      <include xmlns="http://libx.org/xml/libx2">/scholar\.google\.com(.*)\/scholar\?/</include>
+      <include xmlns="http://libx.org/xml/libx2">/scholar\.google\.ca(.*)\/scholar\?/</include>
+      <include xmlns="http://libx.org/xml/libx2">/scholar\.google\.co\.uk(.*)\/scholar\?/</include>
+      <libx:entry src="170">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/150</id>
+    <title>Engineering Village Author Tool</title>
+    <updated>2012-04-27T14:48:47-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Adds a tooltip to the page that describes author links</content>
+    <libx:libapp>
+      <libx:entry src="175">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="176">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <include xmlns="http://libx.org/xml/libx2">/engineeringvillage\.com/</include>
+      <include xmlns="http://libx.org/xml/libx2">/engineeringvillage2\.com/</include>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/151</id>
+    <title>Process COinS</title>
+    <updated>2012-03-30T07:28:16-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Finds COinS on the page and links them.</content>
+    <libx:libapp>
+      <libx:entry src="177">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="178">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/152</id>
+    <title>Link Amazon by ISBN</title>
+    <updated>2012-06-14T11:27:37-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Adds a cue, which links to the resource, next to the resource's title.</content>
+    <libx:libapp>
+      <libx:entry src="171">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="172">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="179">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:include>/amazon\.com\//</libx:include>
+      <include xmlns="http://libx.org/xml/libx2">/amazon\.ca\//</include>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/153</id>
+    <title>Link Google by Keyword</title>
+    <updated>2012-04-27T02:49:41-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Adds a cue that searches the user's library for the searched Google term.</content>
+    <libx:libapp>
+      <libx:entry src="183">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="184">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:include>/google(\.[a-z]+)?\.[a-z]+\/search.*q=/i</libx:include>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/159</id>
+    <title>Autolink ISSNs</title>
+    <updated>2013-04-24T14:17:31-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Find and links ISSNs on a webpage</content>
+    <libx:libapp>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <libx:entry src="253">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="235">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="236">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="237">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="330">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="331">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="333">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="356">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="397">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/161</id>
+    <title>Create AutoLinks Around Text</title>
+    <updated>2012-06-13T15:16:43-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Creates a link around the given node's text, pointing to the given URL.</content>
+    <libx:module>
+      <libx:include>/.*/</libx:include>
+      <libx:require>legacy-cues</libx:require>
+      <libx:guardedby>{ node: libx.space.WILDCARD, url: libx.space.WILDCARD }</libx:guardedby>
+      <libx:body>/* Module: autolinktext
+ *  This module autolinks 'node' to point to 'url'. We guard on a tuple
+ *  containing these items. If 'tooltip' is present in the tuple as well, then
+ *  we add the tooltip's 'value' to the link. If 'ondemand' is requested, then
+ *  add a listener to the node which will produce a tuple containing info
+ *  about it upon signal for consumption by whatever module is handling the
+ *  event.
+ */
+var node      = tuple.node;
+var url       = tuple.url;
+var tooltip     = tuple.tooltip;
+var ondemand    = tuple.tooltip['ondemand'];
+var tooltipValue  = tuple.tooltip['value'];
+var query     = tuple.query;
+var type      = tuple.type;
+var catalogname   = tuple.catalog;
+// if tooltipValue is not null and ondemand is false, then the tooltip is added
+// here. Otherwise, we need to add an event listener to the node
+var cue = new libx.cues.Autolink(node, url, tooltipValue);
+
+cue.onClick(function(){
+   libx.libapp.track({
+       actiontype:"click"
+   }); 
+});
+// if the user wants the tooltip to be added 'ondemand' (on a mouseover), then
+// we produce a tuple to be consumed by a module that will request the data
+// ondemand, instead of when the page loads
+if (ondemand &amp;&amp; tooltipValue === null) {
+  var alnode = cue.link;
+  var action = function () {
+    if (ondemand) {
+      ondemand = false;
+      libx.space.write(
+      {
+        alnode:   alnode,
+        tooltip:  tooltip,
+        catalog:  catalogname,
+        type:   type,
+        query:    query
+      });
+    }
+  };
+  if (alnode.addEventListener) {
+    alnode.addEventListener('mouseover', action, false);
+  }
+  else {
+    alnode.attachEvent('onmouseover', action);
+  }
+}</libx:body>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/162</id>
+    <title>Add Tooltips to DOM elements</title>
+    <updated>2012-03-30T07:16:39-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Adds a tooltip of the given type to the given node.</content>
+    <libx:module>
+      <libx:include>/.*/</libx:include>
+      <libx:require>legacy-cues</libx:require>
+      <libx:guardedby>{ alnode: libx.space.WILDCARD, type: libx.space.WILDCARD }</libx:guardedby>
+      <libx:body>/* Module:  addmetadatatooltip
+ *  This module adds a tooltip (title attribute) to an &lt;a&gt; element, which
+ *  is determined by the tuple containing "alnode". The data that is retrieved
+ *  is determined by the "type", and the tooltip obj. If the tooltip obj
+ *  already contains the tooltip value, then add the tooltip without retrieving
+ *  any data.
+ */
+var node      = tuple.alnode;
+var type      = tuple.type;
+var ondemand    = tuple.tooltip['ondemand'];
+var tooltipValue  = tuple.tooltip['value'];
+var query     = tuple.query;
+var catalog     = tuple.catalog;
+
+// this module could be invoked simply to add a tooltip to an element, or it
+// could be invoked to perform an 'ondemand' request to get the tooltip text.
+if ((tooltipValue === null) || ondemand &amp;&amp; (type != null)) {
+  var addTooltipFunc = eval("libx.cues.add"+ type +"MetadataTooltip");
+  addTooltipFunc(node, catalog, query);
+}
+else if (tooltipValue != null) {
+  node.title = tooltipValue;
+}</libx:body>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/163</id>
+    <title>Autolink PMIDs</title>
+    <updated>2015-04-01T12:16:29-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Finds and links PMIDs on the page.</content>
+    <libx:libapp>
+      <libx:entry src="164">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <libx:entry src="130">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="235">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="237">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="250">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="330">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="331">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="332">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="358">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/164</id>
+    <title>Find PMIDs on Page</title>
+    <updated>2012-07-23T20:59:44-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Finds PMIDs on page, writing each PMID, node, and position to the tuple space.</content>
+    <libx:module>
+      <libx:include>/.*/</libx:include>
+      <libx:regexptexttransformer>/\bPMID[^\d]*([1-9](\d*))\b/g</libx:regexptexttransformer>
+      <libx:body>/* Precondition:
+ *  TextTransformer has returned to us, based on the RegExpTextTransformer,
+ *    match:    contains the matched item we may want to link
+ *    textNode: text node in which our match was found
+ */
+var replacementNode = null;
+var pmid = match[0];
+
+replacementNode = textNode.ownerDocument.createTextNode(pmid);
+
+return [
+  replacementNode,
+  function () {
+    libx.space.write( {
+      purepmid:   match[1],
+      autolinkpmid: pmid,
+      pmidtextnode:   replacementNode
+    });
+  }
+];</libx:body>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/167</id>
+    <title>Find ISBNs on Page</title>
+    <updated>2012-06-13T15:25:30-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Produces a tuple containing a node with the ISBN, the URL to link to it.</content>
+    <libx:module>
+      <libx:include>/.*/</libx:include>
+      <libx:regexptexttransformer>/\b((97[89])?((-)?\d(-)?){9}[\dx])\b/gi</libx:regexptexttransformer>
+      <libx:body>// -- Validation
+// check to see if the isbn we found could be a phone number
+// applies to 10-digit ISBNs only
+var usPhoneNumber = /^\d{3}-\d{3}-?\d{4}$/ig;
+if (usPhoneNumber.test(match[0])) {
+    return null;
+}
+var isbn = libx.utils.stdnumsupport.isISBN(match[1], false);
+if (isbn == null) {
+    return null;
+}
+
+// -- Create Node
+var newNode = textNode.ownerDocument.createTextNode(match[0]);
+
+// -- Search Catalog, Get URL
+var cat   = libx.edition.catalogs.primary;
+var url   = cat.makeSearch('i', isbn);
+var name  = cat.name;
+
+/* Postcondition:
+ * Produce a tuple containing the new node 'node' that we want linked, the
+ * 'url' to link to, and a tooltip object.
+ */
+var output =
+{
+  node:   newNode,
+  url:    url,
+  query:    isbn,
+  tooltip:
+  {
+    ondemand: true,
+    value:    null
+  },
+  type:   "ISBN",
+  catalog:  name
+};
+return [ newNode, function () { libx.space.write(output); } ];</libx:body>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/168</id>
+    <title>Get Full-Text on IEEExplore</title>
+    <updated>2012-04-16T02:38:24-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Retrieve research papers (when off-campus) through your library's subscription of IEEExplore</content>
+    <libx:libapp>
+      <include xmlns="http://libx.org/xml/libx2">/ieeexplore\.ieee\.org/</include>
+      <libx:entry src="169">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/169</id>
+    <title>Redirect to Full-Text URL</title>
+    <updated>2012-04-16T02:37:41-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Redirects user from "abstract-only" webpage to its corresponding "full-text access" url</content>
+    <libx:module>
+      <libx:body>if( ! libx.edition.proxy.primary ) { return ;}
+          
+var arnumber = location.search.match(/arnumber=[0-9]+/);
+var reg =  /freesrchabstract.jsp|freeabs_all.jsp/
+
+if( reg.test(location.pathname) ) 
+{
+      var redirectUrl = libx.edition.proxy.primary.rewriteURL('http://ieeexplore.ieee.org/xpls/abs_all.jsp?' + arnumber );
+      $(".page-tools").children("ul:first")
+                            .append( function () {
+                                 return $("&lt;li&gt;&lt;a style='position: relative;' href='"+redirectUrl+"' &gt;&lt;span style='"
+                                      +  "width: 115px;position: absolute;"
+                                      +  "bottom: 1;left: 0;top: 0;"
+                                      +  "-moz-border-radius: 5px;"
+                                      +  "border-radius: 5px;border: solid 1px;"
+                                      +  "padding-left: 13px;padding-top: 3px;"
+                                      +  "padding-bottom: 2px;"
+                                      /* +  "background-color: #E3F1F8;"*/
+                                      +  "font-weight: bold;"
+                                      +  "'&gt;"
+                                      +  "&lt;img src='" + libx.edition.options.icon + "' style='border:0;height:16px;padding-right:3px'&gt;"
+                                      +  "Get Full Text&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;"
+                                      ).click(function(){
+                                          libx.libapp.track({actiontype:"click"});
+                                      });
+                              });
+ }</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/ieeexplore\.ieee\.org/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/170</id>
+    <title>Add Cue to OpenUrls found in Google Scholar</title>
+    <updated>2012-06-12T14:23:51-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Animates OpenURLs via Cue icon</content>
+    <libx:module>
+      <libx:body>var resolver = libx.edition.openurl.primary; 
+var atags = $("a[href]");
+for (var i = 0; i &lt;atags.length; i++) {
+    var link = atags[i];
+    var p = decodeURIComponent(link.href);
+    var m = p.match(/.*\?sid=google(.*)$/);
+    /* should match scholar viewed through WAM-proxy as well 
+     * also do not rewrite Refworks link 
+    */   
+    if(m &amp;&amp;(m[0].match(/\.refworks\.com/) == null))
+    {    
+
+       var cue = new libx.cues.Cue(resolver.completeOpenURL(m[1], "0.1"),
+                                   'Search ' + resolver.name + ' for this item',
+                                   resolver.image);
+       cue.insertBefore(link);
+       link.parentNode.insertBefore(document.createTextNode(" "),link.nextSibling); 
+       cue.animate();
+       cue.onClick(function(){
+           libx.libapp.track({ actiontype:"click" }); 
+       });
+    }     
+}</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <require xmlns="http://libx.org/xml/libx2">legacy-cues</require>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/171</id>
+    <title>Amazon ISBN Scraper</title>
+    <updated>2012-06-14T11:32:56-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Writes all valid ISBNs on Amazon page to the tuple space.</content>
+    <libx:module>
+      <libx:include>/amazon\.com\//</libx:include>
+      <libx:require>jquery</libx:require>
+      <libx:body>/*
+ * Find the ISBN to which an item refers on Amazon
+ */
+var isbnNodeArray = $("b:contains('ISBN')");
+var isbnVal = isbnNodeArray[0].nextSibling.nodeValue;
+
+if (isbnVal == null)
+    return;
+
+var isbn = libx.utils.stdnumsupport.isISBN(isbnVal, false);
+if (isbn == null)
+    return;
+
+libx.space.write({
+    isbn : isbn
+});</libx:body>
+      <produces xmlns="http://libx.org/xml/libx2">"isbn"</produces>
+      <include xmlns="http://libx.org/xml/libx2">/amazon\.ca\//</include>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/172</id>
+    <title>Find Position of Title in Amazon</title>
+    <updated>2015-01-09T15:19:05-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Writes tuple containing the position of the Amazon book title.</content>
+    <libx:module>
+      <libx:include>/amazon\.com\//</libx:include>
+      <libx:require>jquery</libx:require>
+      <libx:body>/* Find where the book title is displayed in Amazon as of 1/15/2015;
+ * This will put cue right after the main title.
+ */
+var booktitleNode = $("div#booksTitle h1#title &gt; span#productTitle");
+
+libx.space.write({
+    position : booktitleNode[0]
+});</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/amazon\.ca\//</include>
+      <produces xmlns="http://libx.org/xml/libx2">"position"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/175</id>
+    <title>Detect Linked Authors Names</title>
+    <updated>2015-02-18T12:43:21-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Sets up a tooltip describing linked authors.</content>
+    <libx:module xmlns="http://libx.org/xml/libx2">
+      <libx:include>/engineeringvillage\.com/</libx:include>
+      <libx:include>/engineeringvillage2\.com/</libx:include>
+      <libx:require>jquery</libx:require>
+      <libx:body>var htmlcontent = "\
+    &lt;p style='font-family: Verdana;'&gt;\
+    LibX Note: Clicking on hyperlinked author names shows only \
+    results for this spelling of the author's name.\
+    Show a &lt;a href='http://libx.org/images/engineeringvillageauthorsearch.swf'&gt;\
+    1:50m tutorial&lt;/a&gt; to learn how to find all variations.\
+    &lt;/p&gt;\
+    ";
+
+// since the tooltip with have the same html content for each node, we only
+// build it once, and reposition on-demand.
+libx.space.write({
+    fancytooltip:   true,
+    build:          true,
+    display:        false,
+    content:        htmlcontent,
+    width:          450,
+    height:         200
+});
+
+// for each author link, attach an event that shows the tooltip on hover, i.e.,
+// writes a tuple to activate the tooltip display() function. Do this only once
+// the tooltip has been built
+libx.space.take({
+    template: { container: libx.space.WILDCARD },
+    ontake: function (tuple) {
+        var auSelector = "a[title*='Search Author']"; 
+        var delaytimer;
+        $(auSelector).hover(
+            function () {
+                console.log("hovered!");
+                var node = this;
+                delaytimer = window.setTimeout (function () {
+                    console.log("tooltip timeout");
+                    libx.space.write({
+                        fancytooltip:   true,
+                        build:          false,
+                        display:        true,
+                        anchor:         node,
+                        container:      tuple.container
+                    });
+                }, 600);
+            },
+            function () {
+                delaytimer = window.clearTimeout(delaytimer);
+            }
+        );
+    }
+});</libx:body>
+      <produces>"display,build,fancytooltip"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/176</id>
+    <title>Add a Styled Tooltip Popup</title>
+    <updated>2015-02-18T13:07:42-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Given a tooltip tuple, create the tooltip on the page.</content>
+    <libx:module xmlns="http://libx.org/xml/libx2">
+      <libx:include>/engineeringvillage\.com/</libx:include>
+      <libx:include>/engineeringvillage2\.com/</libx:include>
+      <libx:require>jquery</libx:require>
+      <libx:guardedby>{ fancytooltip: true, build: libx.space.WILDCARD, display: libx.space.WILDCARD }</libx:guardedby>
+      <libx:body>/**
+ * build a graphical, resizable tooltip near a DOM node. This module consumes
+ * two tuples. First, it will construct a tooltip and write the node to the
+ * tuple space. If desired, another module may either display it, or send
+ * a tuple containing the display flag set for this module to display it near
+ * a particular node.
+ */
+
+if      (tuple.build)   build();
+else if (tuple.display) display();
+
+function build () {
+    var img_base = "http://libx.org/images/fancytooltip/";
+    var container = document.createElement('div');
+    container.style.position = "absolute";
+    // set dimensions
+    container.style.width  = tuple.width;
+    container.style.height = tuple.height;
+
+    var container_jq = $(container);
+    // initial state of the element must be visible, but faded out, in order
+    // for fading to work correctly
+    container_jq.css("visibility", "visible");
+    container_jq.fadeOut(1);
+container.innerHTML = "\
+    &lt;table border='0' cellspacing='0' cellpadding='0'&gt;\
+      &lt;tr&gt;\
+        &lt;td&gt;&lt;table width='100%' border='0' cellspacing='0' cellpadding='0'&gt;\
+          &lt;tr&gt;\
+            &lt;td width='31' height='24' background='" + img_base +"topleft_fixed.png'&gt;&lt;/td&gt;\
+            &lt;td bgcolor='#FFFFFF' valign='top'&gt;&lt;table width='100%' border='0' cellpadding='0' cellspacing='0' background='" + img_base +"top_exp_horiz.png'&gt;\
+              &lt;tr&gt;\
+                &lt;td height='3'&gt;&lt;/td&gt;\
+              &lt;/tr&gt;\
+            &lt;/table&gt;&lt;/td&gt;\
+            &lt;td width='52' valign='bottom' background='" + img_base +"topright_fixed.png'&gt;\
+            &lt;img class='libx_fancytooltip_close_btn' src='"+ img_base +"x.png' style='border-style: none;' width='18' height='18'&gt;&lt;/img&gt;&lt;/td&gt;\
+          &lt;/tr&gt;\
+        &lt;/table&gt;&lt;/td&gt;\
+      &lt;/tr&gt;\
+      &lt;tr&gt;\
+        &lt;td&gt;&lt;table width='100%' border='0' cellspacing='0' cellpadding='0'&gt;\
+          &lt;tr&gt;\
+            &lt;td rowspan='2' width='4' background='" + img_base +"left_exp_vert.png'&gt;&lt;/td&gt;\
+            &lt;td rowspan='2' bgcolor='#FFFFFF'&gt;\
+            &lt;table cellpadding='9' cellspacing='0'&gt;&lt;tr&gt;&lt;td&gt;\
+                "+ tuple.content +"\
+            &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;\
+               &lt;td width='22' height='16' background='" + img_base +"topright_fixed2.png'&gt;&lt;/td&gt;\
+          &lt;/tr&gt;\
+          &lt;tr&gt;\
+               &lt;td width='22' background='" + img_base +"right_exp_vert.png'&gt;&amp;nbsp;&lt;/td&gt;\
+          &lt;/tr&gt;\
+        &lt;/table&gt;&lt;/td&gt;\
+      &lt;/tr&gt;\
+      &lt;tr&gt;\
+        &lt;td&gt;&lt;table width='100%' border='0' cellspacing='0' cellpadding='0'&gt;\
+          &lt;tr&gt;\
+            &lt;td width='127' height='89' background='" + img_base +"botleft_tail_fixed.png'&gt;&lt;/td&gt;\
+            &lt;td valign='top'&gt;&lt;table width='100%' border='0' cellspacing='0' cellpadding='0'&gt;\
+              &lt;tr&gt;\
+                &lt;td width='100%' height='40' background='" + img_base +"bot_exp_horiz.png'&gt;&lt;/td&gt;\
+              &lt;/tr&gt;\
+            &lt;/table&gt;&lt;/td&gt;\
+            &lt;td width='54' align='right' valign='top'&gt;&lt;table width='54' border='0' cellspacing='0' cellpadding='0'&gt;\
+              &lt;tr&gt;\
+                &lt;td width='54' height='65' background='" + img_base +"botright_fixed.png'&gt;&lt;/td&gt;\
+              &lt;/tr&gt;\
+            &lt;/table&gt;&lt;/td&gt;\
+          &lt;/tr&gt;\
+        &lt;/table&gt;&lt;/td&gt;\
+      &lt;/tr&gt;\
+    &lt;/table&gt;\
+    ";
+    // notify that the tooltip has been built
+    libx.space.write({ container: container });
+}
+function display () {
+    var container = tuple.container;
+    var container_jq = $(container);
+console.log("in display!");
+    if (document.body.lastChild != container) {
+        document.body.appendChild(container);
+        var close_btn;
+        // find the img inside the container
+        var imgs = container.getElementsByTagName("img");
+        for (var i = 0; i &lt; imgs.length; i++) {
+            if (imgs[i].className == "libx_fancytooltip_close_btn") {
+                close_btn = $(imgs[i]);
+            }
+        }
+        close_btn.hover(
+            function () { $(this).css("background-color", "#ABCFF3"); },
+            function () { $(this).css("background-color", "#FFFFFF"); }
+        );
+        close_btn.click(function () {
+            container_jq.fadeOut(300);
+        });
+        positionAndShow();
+    }
+    else {
+        // this is probably the case where the tooltip is re-displayed
+        // at a new location. fadeout the current one, and fadein the new one
+        window.setTimeout(function () { positionAndShow(); }, 250);
+        container_jq.fadeOut(300);
+    }
+    function positionAndShow() {
+        var offset = $(tuple.anchor).offset();
+        // subtract an extra 4 pixels to keep part of the tooltip image from
+        // covering the dom element
+        var t = offset.top - container_jq.height() - 4;
+        var l = offset.left;
+        container.style.top  = t + "px";
+        container.style.left = l + "px";
+        container_jq.fadeIn(750);
+    }
+}</libx:body>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/177</id>
+    <title>Find COinS</title>
+    <updated>2012-11-05T08:44:38-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Writes a tuple for each COinS element found on the page.</content>
+    <libx:module xmlns="http://libx.org/xml/libx2">
+      <libx:include>/.*/</libx:include>
+      <libx:require>jquery</libx:require>
+      <libx:body>$(".Z3988").each(function () {
+    libx.space.write({
+        coins: this,
+        contextobj: this.getAttribute('title')
+    });
+});</libx:body>
+      <produces>"coins"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/178</id>
+    <title>Link COinS</title>
+    <updated>2014-04-16T09:45:05-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Given a COinS tuple, adds a cue on the page pointing to the COinS resource.</content>
+    <libx:module xmlns="http://libx.org/xml/libx2">
+      <libx:include>/.*/</libx:include>
+      <libx:require>legacy-cues</libx:require>
+      <libx:guardedby>{ coins: libx.space.WILDCARD }</libx:guardedby>
+      <libx:body>var cue = new libx.cues.StandardCoins(tuple.contextobj);
+cue.insertBefore(tuple.coins);
+
+cue.onClick(function(){
+   libx.libapp.track({
+       actiontype:"click"
+   });
+});
+
+var link360 = libx.services.link360.getLink360(libx.edition);
+if (link360)
+  link360.getMetadata({
+    query: tuple.contextobj,
+    type: 'article',
+    hasFullText: function (xmlDoc, url, databaseName) {
+      cue.setAttribute('href', url);
+      cue.setAttribute('title', "Users of " + libx.edition.links.primary.label
+            + " click here for full text via " + databaseName);
+      cue.setImageAttribute('src', libx.edition.options.icon);
+      cue.animate();
+    },
+  });
+
+// coexist
+libx.space.write(tuple);</libx:body>
+      <exclude>/mit.worldcat.org/</exclude>
+      <exclude>/owens.mit.edu/</exclude>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/179</id>
+    <title>Link by ISBN</title>
+    <updated>2015-01-09T15:18:38-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Creates a cue in the specified position, linked to the ISBN's resource.</content>
+    <libx:module>
+      <libx:include>/.*/</libx:include>
+      <libx:require>legacy-cues</libx:require>
+      <libx:guardedby>{ position: libx.space.WILDCARD }</libx:guardedby>
+      <libx:body>/* Insert an old-style cue that searches by ISBN */
+var cue = new libx.cues.CatalogCue('i', tuple.isbn);
+
+cue.insertBefore(tuple.position);
+cue.image.setAttribute('width', '16');
+cue.animate();
+cue.onClick(function(){
+   libx.libapp.track({
+       actiontype:"click"
+   }); 
+});</libx:body>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ isbn: libx.space.WILDCARD }</guardedby>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/183</id>
+    <title>Link by Keyword</title>
+    <updated>2012-04-15T16:11:23-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Create a LibX cue based on the accepted tuple's keyword and position properties.</content>
+    <libx:module>
+      <libx:include>/.*/</libx:include>
+      <libx:require>legacy-cues</libx:require>
+      <libx:guardedby>{ keyword: libx.space.WILDCARD }</libx:guardedby>
+      <libx:body>// Create an old-style LibX cue with a keyword search on the
+// primary catalog, insert it before tuple.position and animate it
+var cue = new libx.cues.CatalogCue('Y', tuple.keyword);
+cue.insertBefore(tuple.position);
+cue.animate();
+if(!cue.onClick )
+
+cue.onClick(function(){
+   libx.libapp.track({
+       actiontype:"click"
+   }); 
+});</libx:body>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/184</id>
+    <title>Extract Keyword from Google</title>
+    <updated>2015-03-18T12:21:17-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Adds a tuple containing the searched keyword and cue position.</content>
+    <libx:module>
+      <libx:include>/google(\.[a-z]+)?\.[a-z]+\/search.*q=/i</libx:include>
+      <libx:require>jquery</libx:require>
+      <libx:body>function doGoogleCue() {
+
+/* Find a suitable location to include a cue */
+var nArray = $("div div[id='prs'] b");
+if (nArray.length == 0)
+    nArray = $("tr td span[id='sd']"); // old, before Aug 2008
+var nArray = $("#resultStats"); // faceted Google
+
+var n = nArray[0];
+
+// Extract search terms
+var searchterms = null;
+try {
+  // FF 3.0 and before
+  searchterms = unsafeWindow.document.gs.q.value;
+} catch ( e ) {
+  searchterms = null;
+}
+
+if ( searchterms == null ) {
+  // FF 3.5
+  searchterms = window.wrappedJSObject.document.gs.q.value;
+}
+
+libx.space.write({
+    keyword: searchterms,
+    position: n.parentNode.lastChild
+});
+
+}
+
+try {
+   window.wrappedJSObject.google.watch ( "pageState",
+       doGoogleCue );
+} catch (e) {}
+
+try {
+  doGoogleCue();
+} catch ( e ) { }</libx:body>
+      <produces xmlns="http://libx.org/xml/libx2">"keyword"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/122</id>
+    <title>Autolink DOIs</title>
+    <updated>2013-02-06T15:33:03-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Finds and links DOIs on page</content>
+    <libx:libapp>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <libx:entry src="125">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="237">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="235">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="250">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="329">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="330">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="331">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="358">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/125</id>
+    <title>Find DOIs on Page</title>
+    <updated>2012-07-25T10:16:55-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org</uri>
+      <email>libx.org@gmail.com</email>
+    </author>
+    <content type="html">Finds DOIs on the page, writing each valid result to the tuple space.</content>
+    <libx:module>
+      <libx:include>/.*/</libx:include>
+      <libx:regexptexttransformer>/\b10\.([0-9]{4,})\/([^\s\&lt;\&gt;\"]+)\b/ig</libx:regexptexttransformer>
+      <libx:body>/* Regex captures multiple subgroups, like so ["10.XXXX/1471-2105-8-487", "XXXX", "1471-2105-8-487"]
+ * which we could use say to look at assigners of DOI.
+ */
+var doi = match[0]; 
+doi = libx.utils.stdnumsupport.isDOI(doi, false);
+if (doi == null)
+    return null;
+
+                          
+/* EBSCO pointed out that a lot of auto-linked OpenURLs from LibX have
+ * a trailing dot which is unlikely to belong to the DOI.  Strip it.
+ */
+if (".".indexOf(doi.charAt(doi.length - 1)) &gt;= 0) {
+   doi = doi.substr(0, doi.length - 1);
+}
+
+var newNode = textNode.ownerDocument.createTextNode(match[0]);
+
+return [
+   newNode,
+   function () {
+      libx.space.write({
+          puredoi : doi,
+          doitextnode: newNode
+      });
+   }
+];</libx:body>
+      <produces xmlns="http://libx.org/xml/libx2">"doitextnode,puredoi"</produces>
+      <locale xmlns="http://libx.org/xml/libx2" default="true" language="en_US">{ 
+  "usedoisystem" : { "message" : "Use http://dx.doi.org/" } 
+}</locale>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/128</id>
+    <title>Get Full-Text on Nature.com</title>
+    <updated>2012-04-27T05:04:15-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Adds a full-text url on journal article webapge on nature.com</content>
+    <libx:libapp>
+      <include xmlns="http://libx.org/xml/libx2">/nature.com\/nature\/journal\/v.*\/n.*\/full\//</include>
+      <libx:entry src="129">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/129</id>
+    <title>Redirect to Full-text url</title>
+    <updated>2012-04-27T05:26:17-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Add full-text url link</content>
+    <libx:module>
+      <libx:body>if( ! libx.edition.proxy.primary) { return ;}
+
+var redirectUrl = libx.edition.proxy.primary.rewriteURL(location.href);
+
+if($("#access").hasClass("subscribe-prompt")){
+
+  $(".article-heading") .append( function () {
+                             return $("&lt;div&gt;&lt;a style='position: relative;' href='"+redirectUrl+"' &gt;&lt;span style='"
+                                      +  "width: 115px;"
+                                      +  "bottom: 1;left: 0;top: 0;"
+                                      +  "-moz-border-radius: 5px;"
+                                      +  "border-radius: 5px;border: solid 1px;"
+                                      +  "padding-left: 13px;padding-top: 3px;"
+                                      +  "padding-bottom: 2px;padding-right: 9px;"
+                                      +  "border-color: #069;font-size: 17px;"
+                                      +  "font-weight: bold;color: #069;"
+                                      +  "'&gt;"
+                                      +  "&lt;img src='" + libx.edition.options.icon + "' style='border:0;height:16px;padding-right:3px'&gt;"
+                                      +  "Get Full Text&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;"
+                                      ).click(function(){
+                                          libx.libapp.track({actiontype:"click"});
+                                      });
+});
+}</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/130</id>
+    <title>Find PMIDs on Pubmed</title>
+    <updated>2012-12-01T04:46:36-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Scrape PMIDs on Pubmed results page.
+
+Example: http://www.ncbi.nlm.nih.gov/pubmed/22685696</content>
+    <libx:module>
+      <libx:body>var $pmids = $("dl.rprtid &gt; dd:first");
+$pmids.each(function(index) {
+  libx.space.write({
+     purepmid: $(this).text(),
+     autolinkpmid: $(this).text(),
+     pmidtextnode: $pmids[index]
+  });
+});</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/ncbi\.nlm\.nih\.gov\/pubmed/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <produces xmlns="http://libx.org/xml/libx2">"purepmid,autolinkpmid,pmidtextnode"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/134</id>
+    <title>NYTimes.com Paywall Buster</title>
+    <updated>2012-06-23T14:06:27-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Offer the user links to academic subscriptions when the NY Times paywall appears.</content>
+    <libx:libapp>
+      <include xmlns="http://libx.org/xml/libx2">/nytimes\.com\/\d{4}\/\d{2}\/\d{2}\/.*gwh/</include>
+      <libx:entry src="136">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="137">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="229">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/135</id>
+    <title>Extract's meta information of any webpage</title>
+    <updated>2012-04-27T01:37:51-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Given a (comma-separated) string of meta-tags to retrieve, write's a tuple "pagemeta" containing meta-info of the webpage</content>
+    <libx:module>
+      <libx:body>/*Example string: "byl:authors,title:pagetitle" 
+   where "byl" is meta-tag name and "authors" is used a descriptor
+   when writing to tuple
+*/
+var mstr = new String(metatagstr);
+mstr = mstr.split(",");
+var metatagmap = {};
+mstr.forEach(function(tagstr) {
+       tagstr = tagstr.split(":");
+       if(tagstr.length &gt; 1) {
+             metatagmap[tagstr[0]] = tagstr[1];
+       }             
+});
+
+var metatags = document.getElementsByTagName("meta");
+var details = {};
+for (var i = 0; i &lt; metatags.length; i++) {
+     var n = metatags[i].getAttribute('name');
+     if( n in metatagmap) {
+             details[metatagmap[n]] = metatags[i].getAttribute('content')         
+     }
+}
+
+/*format : pagemeta.[tag-descriptor]*/
+libx.space.write ({ pagemeta : details });</libx:body>
+      <params xmlns="http://libx.org/xml/libx2">
+        <param name="metatagstr" type="string">
+          <description>(comma-separated) string of meta-tags to retrieve</description>
+        </param>
+      </params>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <produces xmlns="http://libx.org/xml/libx2">"pagemeta"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/136</id>
+    <title>Use LexisNexis Academic to read nytimes.com</title>
+    <updated>2012-07-09T13:28:01-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Create a notification with a link to a LexisNexis Academic API link to view articles published on nytimes.com that also appeared in the print edition of the NY Times.</content>
+    <libx:module>
+      <libx:body>/*Byline format =&gt; "By John Doe, Jane Smith and Zach Eagle */
+//get first primary author, split in array
+var author = tuple.pagemeta.byline.split(",")[0];
+author = author.split(/\b(and)\b/gi)[0].trim().split(" ");
+//get last name of primary author
+author = author[author.length -1];
+
+/*http://www.amdev.net/docs/LexisNexis_Academic_URL_API_Specification_ver2010.pdf*/
+/*Formatting hlead: truncate the title or select a few keywords from it. 
+Connect non-adjacent words with the “AND”  operator.  Strip out punctuation and quotation marks, as well as the words “and,” “or,” and “not.”*/
+
+/* API doc doesn't say it, but "the" must not be included either. */
+var unsearchables = /^(and|or|not|a|in|into|as|be|the|this|there|is|out|of|an|too|to|but|here|could)$/i;
+
+/*Removes everything except alphanumeric characters and whitespace, then collapses multiple adjacent characters to single spaces*/
+var hlead = tuple.pagemeta.headline.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").split(" ");
+var hleadterms = [];
+
+for(var i =0; hleadterms.length &lt; 4 &amp;&amp; i &lt; hlead.length; i++)
+{
+    if (hlead[i] != "" &amp;&amp; hlead[i].match(unsearchables) == null) {
+           hleadterms.push(hlead[i]);
+    }
+}
+
+var hleadstr = hleadterms.join("+AND+");
+
+var query = "BYLINE("
+                    +                       author
+                    +                   ")"
+                    +        "+AND+"
+                    +            "HLEAD("
+                    +                        hleadstr
+                    +                      ")"
+                    +         "+AND+"
+                    +         "DATE+IS+"
+                    +                          tuple.pagemeta.month
+                    +                              "+"
+                    +                            tuple.pagemeta.day
+                    +                               "+"
+                    +                            tuple.pagemeta.year
+                    ;
+
+var url = "http://www.lexisnexis.com/hottopics/lnacademic/?verb=sr&amp;csi=6742&amp;sr=" + query;
+ 
+/* Proxy if a proxy is configured, assuming user is off-campus.  FIXME - use 'isoncampus' service instead. */
+if( libx.edition.proxy.primary ) { 
+ url = libx.edition.proxy.primary.rewriteURL(url);
+}
+
+var title = "Searching Lexis-Nexis for: " + query;
+
+var $note = $("&lt;p&gt;" + tuple.pagemeta.metaFootnote + "&lt;/p&gt;&lt;p&gt;&lt;span&gt;Read this article using " + "&lt;strong&gt;&lt;a title='"+ title + "' href='" + url + "' target='_blank'&gt;LexisNexis&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;");
+$note.find("a").click(function () {
+    libx.libapp.track({
+       actiontype:"click"
+   });
+});
+
+libx.space.write({ notify: $note});</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ pagemeta : libx.space.WILDCARD }</guardedby>
+      <produces xmlns="http://libx.org/xml/libx2">"notify"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/137</id>
+    <title>Display HTML notifications via an embedded panel using jGrowl</title>
+    <updated>2013-02-20T16:08:46-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Given a notification tuple, displays the jGrowl notification on the page.</content>
+    <libx:module>
+      <libx:body>var cat = libx.prefs.getCategoryForUrl(libx.libapp.getCurrentLibapp(),
+    [{ name: "shownotify", type: "boolean", value: "true" }]);
+
+if (!cat.shownotify._value)
+    return;
+
+function getSite() {
+    var url=window.location.href;
+    var index = url.indexOf("%20");
+   
+    while (index &gt; 0) {
+        var newurl = url.substr(0,index)+'+'+url.substr(index+3);
+        url = newurl;
+        index = url.indexOf("%20");
+    } 
+    url = url.replace("http://","");
+    url = url.replace("https://","");
+    
+    var idx = url.length;
+    if((url.indexOf('/') &gt; 0) &amp;&amp; (url.indexOf('/') &lt; idx)) {
+       idx = url.indexOf('/'); 
+    }
+    if((url.indexOf('?') &gt; 0) &amp;&amp; (url.indexOf('?') &lt; idx)) {
+       idx = url.indexOf('?'); 
+    } 
+    if((url.indexOf('#') &gt; 0) &amp;&amp; (url.indexOf('#') &lt; idx)) {
+      idx = url.indexOf('#'); 
+    } 
+    return url.substr(0,idx);
+}
+
+var site = getSite();
+
+// other modules may do this check earlier, but here we check if user opted out of display
+var libappPrefs = libx.prefs.getCategoryForUrl(libx.libapp.getCurrentLibapp());
+
+if (libappPrefs['DisabledWebsites'] != null) {
+    if(libappPrefs['DisabledWebsites']._items != null &amp;&amp; libappPrefs['DisabledWebsites']._items.length &gt; 0) {
+        for (var i=0; i &lt; libappPrefs['DisabledWebsites']._items.length; i++ ) {
+            if (libappPrefs['DisabledWebsites']._items[i]._value== site &amp;&amp; libappPrefs['DisabledWebsites']._items[i]._selected) {
+                return;    
+            }
+        }
+    }
+}
+
+// Set sticky:true unless provided in tuple.options
+var jGrowlOptions= $.extend({}, {sticky:true}, tuple.options);
+
+var stringBundle = libx.libapp.getStringBundle(libx.libapp.getCurrentModule());
+var $dontshow = $('&lt;div&gt;&lt;a href="javascript:void(0);"&gt;' + stringBundle.getProperty("hidepopup") + '&lt;/a&gt;&lt;/div&gt;')
+                .css('text-align', 'right')
+                .click(function () { 
+                    $(this).parents('.message').siblings('.close').click();
+                    cat.shownotify._setValue(false);
+                    libx.preferences.save();
+                });
+
+var $dontshowInSite = $('&lt;div&gt;&lt;a href="javascript:void(0);"&gt;'+ stringBundle.getProperty("hidepopupfor") +' '+ site +'&lt;/a&gt;&lt;/div&gt;')
+                .css('text-align', 'right')
+                .click(function () { 
+                   $(this).parents('.message').siblings('.close').click();
+                   
+                   if (libappPrefs['DisabledWebsites'] == null ) {
+                       libappPrefs._addPreference({ _name: "DisabledWebsites", _type: "multichoice"});               
+                   }
+
+                  libappPrefs['DisabledWebsites']._addItem({ _value:site ,_type: "string", _selected: true });                                      
+        
+                  libx.preferences.save();
+                });
+
+if (tuple.clear) {
+ $('.jGrowl-notification').each(function(index) {
+  if(index != 0)  // leave the first element which is used internally by jGrowl
+    $(this).remove();
+ });
+}
+
+var $notify = $('&lt;div/&gt;').append(tuple.notify);
+if (!tuple.hidedontshow) {
+    $notify.append($dontshow); 
+}
+if (!tuple.hidedontshowsite) {
+   $notify.append($dontshowInSite); 
+}
+
+// Display notification
+$.jGrowl($notify, jGrowlOptions);</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <require xmlns="http://libx.org/xml/libx2">jgrowl</require>
+      <require xmlns="http://libx.org/xml/libx2">jgrowl.css</require>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ notify: libx.space.WILDCARD }</guardedby>
+      <locale xmlns="http://libx.org/xml/libx2" default="true" language="en_US">{ "shownotify" : { "message" : "Display popup notification" }, "hidepopup" : { "message" : "Hide this popup" },"hidepopupfor" : { "message" : "Hide this popup for" },"DisabledWebsites" : { "message" : "Disabled Websites" } }</locale>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/138</id>
+    <title>Get Full-Text on ACM Digital Library</title>
+    <updated>2012-04-27T05:13:27-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Retrieve research papers (when off-campus) through your library's subscription of ACM Digital Library</content>
+    <libx:libapp>
+      <include xmlns="http://libx.org/xml/libx2">/dl\.acm\.org/</include>
+      <libx:entry src="139">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="140">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/139</id>
+    <title>Add full-text url in abstract-only webpage</title>
+    <updated>2012-04-27T05:33:42-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Adds a link (with full-text url) in abstract-only webpage of dl.acm.org</content>
+    <libx:module>
+      <libx:body>var atags = $('a[href*="purchase.cfm"]:has(img)');
+for(var i =0; i &lt;atags.length;i++ )         
+{
+  var link = atags[i];
+  var redirectUrl = link.href;
+  redirectUrl = redirectUrl.replace("purchase.cfm","ft_gateway.cfm");
+  redirectUrl = libx.edition.proxy.primary.rewriteURL(redirectUrl);
+                  
+  $(link).parent().append( function () {
+                             return $("&lt;div style='display:inline;'&gt;&lt;a style='position: relative;text-decoration:none;' href='"+redirectUrl+"' &gt;&lt;span style='"
+                                      +  "width: 115px;"
+                                      +  "bottom: 1;left: 0;top: 0;"
+                                      +  "-moz-border-radius: 5px;"
+                                      +  "border-radius: 5px;border: solid 1px;"
+                                      +  "padding-left: 13px;padding-top: 3px;"
+                                      +  "padding-bottom: 2px;padding-right: 9px;"
+                                      +  "border-color: #069;font-size: 15px;"
+                                      +  "font-weight: bold;color: #069;"
+                                      +  "'&gt;"
+                                      +  "&lt;img src='" + libx.edition.options.icon + "' style='border:0;height:16px;padding-right:3px'&gt;"
+                                      +  "Get Full Text&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;"
+                                      ).click(function(){
+                                          libx.libapp.track({actiontype:"click"});
+                                      });
+});
+}</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/dl.acm\.org\/citation.cfm/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/140</id>
+    <title>Add full-text url in results webpage</title>
+    <updated>2012-04-27T05:37:13-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Adds a link (with full-text url) for each entry in results webpage</content>
+    <libx:module>
+      <libx:body>var atags = $('a[href*="citation.cfm"]');
+for(var i =0; i &lt;atags.length;i++ )         
+{
+  var link = atags[i];
+  var parent = $(link).parent().parent().parent();
+  var fchild = parent &amp;&amp; $(parent).find('a[href*="ft_gateway.cfm"]');
+  if(fchild &amp;&amp; fchild.length &gt; 0 )
+  {
+      var redirectUrl = fchild[0].href;
+      redirectUrl = libx.edition.proxy.primary.rewriteURL(redirectUrl);
+      
+      $(fchild[0]).parent().append( function () {
+                             return $("&lt;div style='display:inline;'&gt;&lt;a style='position: relative;text-decoration:none;' href='"+redirectUrl+"' &gt;&lt;span style='"
+                                      +  "width: 115px;"
+                                      +  "bottom: 1;left: 0;top: 0;"
+                                      +  "-moz-border-radius: 5px;"
+                                      +  "border-radius: 5px;border: solid 1px;"
+                                      +  "padding-left: 13px;padding-top: 3px;"
+                                      +  "padding-bottom: 2px;padding-right: 9px;"
+                                      +  "border-color: #069;font-size: 15px;"
+                                      +  "font-weight: bold;color: #069;"
+                                      +  "'&gt;"
+                                      +  "&lt;img src='" + libx.edition.options.icon + "' style='border:0;height:16px;padding-right:3px'&gt;"
+                                      +  "Get Full Text&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;"
+                                      ).click(function(){
+                                          libx.libapp.track({actiontype:"click"});
+                                      });
+});
+  }
+}</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/dl.acm\.org\/results.cfm/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/141</id>
+    <title>Show Item Availability on Amazon</title>
+    <updated>2015-03-25T12:18:45-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Shows the availability of an item (such as books) on Amazon website.
+
+Requires that the primary catalog has the Summon Proxy feature enabled.</content>
+    <libx:libapp>
+      <libx:include>/amazon\.com\//</libx:include>
+      <libx:entry src="142">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="143">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="171">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="172">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/142</id>
+    <title>Determine Availability by ISBN</title>
+    <updated>2012-09-18T15:00:36-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Determines an item's availability by ISBN using Summon.</content>
+    <libx:module xmlns="http://libx.org/xml/libx2">
+      <libx:include>/.*/</libx:include>
+      <libx:guardedby>{ isbn: libx.space.WILDCARD }</libx:guardedby>
+      <libx:require>jquery</libx:require>
+      <libx:body>// see if item is available
+var primarycatalog = libx.edition.catalogs[0];
+if (!('summonproxyurl' in primarycatalog))
+    return;
+
+var previewurl = primarycatalog.summonproxyurl;
+
+libx.cache.defaultMemoryCache.get({
+    url: previewurl + '?s.q=' + tuple.isbn,
+    dataType: "json",
+    success: function (data) {
+        // xxx iterate over found documents
+        data.documents.forEach(function (doc) {
+             var availurl = primarycatalog.summonavailabilityurl;
+             doc.availabilityId &amp;&amp; libx.cache.defaultMemoryCache.get({
+                   url: availurl + '?s.id=' + doc.availabilityId,
+                   dataType: 'xml',
+                   success: function (doc) {        
+                        var m = {};
+                        var avail = libx.utils.xpath.findNodesXML(doc, "//availabilityItems/availabilities/availability");
+                        
+                        if(avail.length &gt; 0)
+                        {
+                            avail.forEach(function (elem) {   
+                                var str = elem.getAttribute("displayString").trim().replace("&amp;nbsp;", "");
+                                 if(m[str] == undefined)
+                                      m[str] = 1;
+                                  else{
+                                      var count = m[str];
+                                      ++count;
+                                      m[str] = count;
+                                   }
+                              });
+                            console.dir(m);
+                            libx.space.write({ availability: m });            
+                        }                    
+                     }
+               });
+         });
+     }
+});</libx:body>
+      <produces>"availability"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/143</id>
+    <title>Display Availability</title>
+    <updated>2012-05-10T11:17:31-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Displays an item's availability.</content>
+    <libx:module xmlns="http://libx.org/xml/libx2">
+      <libx:include>/.*/</libx:include>
+      <libx:guardedby>{ availability: libx.space.WILDCARD }</libx:guardedby>
+      <libx:guardedby>{ position: libx.space.WILDCARD }</libx:guardedby>
+      <libx:require>jquery</libx:require>
+      <libx:body>for ( var avail in tuple.availability)
+{    
+    var msg = tuple.availability[avail]  + ( tuple.availability[avail] == 1 ? "  copy" : " copies" );
+    msg += " : " + avail.trim().replace("&amp;nbsp;", "") ;
+    $(tuple.position).append(function(){
+         return $("&lt;/br&gt;&lt;span style='" +
+                       " font-size: 14px; font-weight: bold;"+
+                       "white-space: nowrap; border: 1px solid;"+
+                       "color: green; padding: 0 5px;'&gt;" + 
+                        msg + "&lt;/span&gt;"); 
+    });
+}</libx:body>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/144</id>
+    <title>Book Vendors</title>
+    <updated>2012-07-25T14:57:28-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Contains libapps that show an item's (book, etc ) availability in user's library when searching in specific book vendors website</content>
+    <libx:package>
+      <libx:entry src="141">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="145">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="152">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="209">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:package>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/145</id>
+    <title>Show Book Availability on Barnes &amp; Noble</title>
+    <updated>2012-06-12T14:03:46-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Shows the availability of books on BN.com website.
+
+Example URL: http://www.barnesandnoble.com/w/1776-david-mccullough/1100185210?ean=9780743226721</content>
+    <libx:libapp>
+      <libx:entry src="205">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="206">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="142">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="143">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <include xmlns="http://libx.org/xml/libx2">/barnesandnoble\.com\//</include>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/205</id>
+    <title>Barnes &amp; Noble ISBN Scraper</title>
+    <updated>2015-08-17T11:46:20-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Writes all valid ISBNs to tuple space on BN.com</content>
+    <libx:module>
+      <libx:body>/*
+ * Find the ISBN to which an item refers on Barnes &amp; Noble
+ */
+
+var isbnVal = null;
+if(/search\.barnesandnoble\.com/.test(document.location.hostname) &amp;&amp; 
+      /e\/[0-9]*/.test(document.location.pathname) )
+{
+       isbnVal = document.location.pathname.match(/[0-9]*$/)[0];
+}
+else {
+  var isbnNodeArray = $("dt:contains('ISBN')");
+  isbnVal = isbnNodeArray[0].nextSibling.nextSibling.textContent;
+}
+
+if ( isbnVal == null )
+    return;
+
+var isbn = libx.utils.stdnumsupport.isISBN(isbnVal, false);
+if (isbn == null)
+    return;
+
+libx.space.write({
+    isbn : isbn
+});</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/barnesandnoble\.com\//</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <produces xmlns="http://libx.org/xml/libx2">"isbn"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/206</id>
+    <title>Find Position of Title in Barnes &amp; Noble</title>
+    <updated>2015-08-17T11:49:36-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Writes tuple containing the position of the BN.com book title.</content>
+    <libx:module>
+      <libx:body>/* Find where the book title is displayed in BN.com*/
+var pos = null;
+if(/search\.barnesandnoble\.com/.test(document.location.hostname) &amp;&amp; (/e\/[0-9]*/.test(document.location.pathname)) )
+{
+       pos = document.getElementsByClassName("wgt-productTitle")[0];
+}
+else { 
+      pos = $("h1[itemprop='name']")[0];
+}
+
+if ( pos != null ) {
+   libx.space.write({
+       position : pos
+   });
+}</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/barnesandnoble\.com\//</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <produces xmlns="http://libx.org/xml/libx2">"position"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/209</id>
+    <title>Link Barnes &amp; Nobles by ISBN</title>
+    <updated>2012-10-30T17:11:07-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Adds a cue, which links to the resource, next to the resource's title.</content>
+    <libx:libapp>
+      <include xmlns="http://libx.org/xml/libx2">/barnesandnoble\.com\//</include>
+      <libx:entry src="205">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="206">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="179">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/229</id>
+    <title>Extract meta information from NY Times Paywalled Page</title>
+    <updated>2013-05-30T13:23:57-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Extract meta information from nytimes.com so that an article can be found via services such as Lexis Nexis. Extracts byline, heading, and the date at which the article appeared in print.
+
+Metadata is extracted only if the page contains a line: "A version of this article appeared in print ..."</content>
+    <libx:module>
+      <libx:body>/* This is more complicated than needed since the Times now runs JavaScript that kills their DOM (even though the page they serve has the entire article.)
+ */
+
+var metadata;
+/* First, look for the metaFootnote which has the exact information when the print version appeared. */
+var $printVersion = $("h6.metaFootnote");
+if ($printVersion.length == 1) {
+
+  var pVersion = $printVersion.text();
+  var m = pVersion.match(/A version of this (?:.+) appeared in print on ((January|February|March|April|May|June|July|August|September|October|November|December) ([1-2][0-9]|3[0-1]|0?[1-9]), ((19|20)[0-9][0-9])), on page ([A-Z]+)(\d+) of the .+ with the headline:\s*(.+)\./i);
+
+  metadata = {
+     metaFootnote: m[0],
+     fullDate: m[1],
+     month: m[2],
+     day: m[3],
+     year: m[4],
+     section: m[6],
+     page: m[7],
+     headline: m[8],
+     byline: $('meta[name="byl"]').attr("content")
+  };
+  libx.space.write({ pagemeta: metadata });
+  return;
+}
+
+/* Else, try looking for other tags. */
+var $nytheadline = $("nyt_headline");
+
+/* The publication date is crucial for a hit in Lexis-Nexis, but it's difficult to find.
+ * NY Times articles are not posted online the same day as when they appear in print.
+ * Most date-related metadata seems to refer to the online pub date.
+ * It seems, though, that the date encoded in the URL is the print date, so look there.
+ */
+var dateInURL = document.location.href.match(/nytimes.com\/(\d+\/\d+\/\d+)\//);
+if ($nytheadline.length &gt; 0 &amp;&amp; dateInURL) {
+  var fullDate = new Date(dateInURL[1]).toLocaleDateString().replace(/\S+,\s*/, ""); // strip out day of week.
+  var mdy = fullDate.split(/\//);
+    
+  var genre = $('meta[itemprop="genre"]').attr('content') || "article";
+  metadata = {
+     metaFootnote: "This " + genre + " was published " + fullDate + ".",
+     fullDate: fullDate,
+     month: mdy[0],
+     day: mdy[1],
+     year: mdy[2],
+     /* section and page cannot be determined using this method. */
+     headline: $nytheadline.text(),
+     byline: $('meta[name="byl"]').attr("content")
+  };
+
+   libx.space.write({ pagemeta: metadata });
+   return;
+}
+
+/* What else could we do?  Just XHR the document and regexp for the metaFootnote??? */</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*nytimes.com\/.*/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <produces xmlns="http://libx.org/xml/libx2">"pagemeta"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/230</id>
+    <title>Autolink ISBNs</title>
+    <updated>2012-12-20T16:08:38-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Autolink ISBN, advanced version</content>
+    <libx:libapp>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <libx:entry src="231">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="235">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="236">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="237">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="250">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="330">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="331">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="334">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="357"/>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/231</id>
+    <title>Find ISBNs on Page</title>
+    <updated>2012-06-25T13:22:24-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Find ISBNs</content>
+    <libx:module>
+      <libx:include>/.*/</libx:include>
+      <libx:regexptexttransformer>/\b((97[89])?((-)?\d(-)?){9}[\dx])\b/gi</libx:regexptexttransformer>
+      <libx:body>// -- Validation
+// check to see if the isbn we found could be a phone number
+// applies to 10-digit ISBNs only
+var usPhoneNumber = /^\d{3}-\d{3}-?\d{4}$/ig;
+if (usPhoneNumber.test(match[0])) {
+    return null;
+}
+var isbn = libx.utils.stdnumsupport.isISBN(match[1], false);
+if (isbn == null) {
+    return null;
+}
+
+// -- Create Node
+var newNode = textNode.ownerDocument.createTextNode(match[0]);
+
+/* Postcondition:
+ *
+ * Produce a tuple containing the new text node wrapping the ISBN, and place ISBN in there.
+ * Everything else is left to other modules.
+ */
+var output =
+{
+  isbntextnode:   newNode,
+  isbn:    isbn,
+};
+
+return [ newNode, function () { libx.space.write(output); } ];</libx:body>
+      <produces xmlns="http://libx.org/xml/libx2">"isbntextnode,isbn"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/233</id>
+    <title>Dummy Package</title>
+    <updated>2015-03-18T12:13:24-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">This package contains stuff so that there are no modules/libapps at the root level to work around a bug.</content>
+    <libx:package>
+      <libx:entry src="234">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="335">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="134">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="153"/>
+    </libx:package>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/234</id>
+    <title>Dummy Libapp</title>
+    <updated>2012-06-24T00:03:29-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Has no includes, does not run.</content>
+    <libx:libapp>
+      <libx:entry src="135">
+        <args xmlns="http://libx.org/xml/libx2">
+          <arg name="metatagstr" type="string" value="Enter Value"/>
+        </args>
+      </libx:entry>
+      <exclude xmlns="http://libx.org/xml/libx2">/.*/</exclude>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/235</id>
+    <title>Flexible Tooltip</title>
+    <updated>2013-09-27T15:57:53-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Write a flexible tooltip</content>
+    <libx:module>
+      <libx:body>/*
+ * tooltipBase is a $ referring to the element over which the tooltip should appear.
+ * tooltipContent is a $ referring to the tooltip content, which should not have been
+ * attached to the document.
+ */
+
+var base = tuple.tooltipBase;
+var content = tuple.tooltipContent;
+
+var tooltip = content.wrap("&lt;div&gt;").parent().addClass("libx-tooltip");
+if (tuple.tooltipStyleMap) {
+    tooltip.css(tuple.tooltipStyleMap);
+}
+
+/* We must add the div containing the tooltip to the body; if we placed it in the DOM closer
+ * to the element to which it refers, it may be cut off when being placed into overflow:hidden 
+ * containers. */
+tooltip.prependTo('body').css({
+    'position' : 'absolute'
+});
+
+/* 
+ * Tooltips aren't as simple as they seem.
+ * Generally, they should appear only if the user 'hovers', so mouse movements
+ * that simply run over elements shouldn't be causing the tip's display.
+ * We reimplement the approach used in the hoverIntent jquery 
+ * plug-in http://cherne.net/brian/resources/jquery.hoverIntent.html
+ * 
+ * On mouseenter, start timer.  If expired, show tooltip if mouse didn't move much.
+ * Else, record new mouse position and restart timer.
+ *
+ * On mouseleave, stop timer if tooltip isn't shown. If tooltip is shown, wait for 2 seconds and hide it.
+ * Cancel timeouts as user reenters.
+ */
+
+/* We try a (hopefully simple to understand) state machine with timeouts instead. */
+var prevMousePos, currentMousePos;
+function readMousePos(ev) {
+    return {
+        x: ev.pageX, y: ev.pageY,
+        isClose : function (that) {
+           return Math.abs(this.x - that.x) + Math.abs(this.y - that.y) &lt; 7;
+        }
+    };
+}
+       
+function trackMouse(ev) {
+    currentMousePos = readMousePos(ev);
+}
+
+function placeTooltip() {
+    var baseOffset = $(base).offset();
+    var fixedLeft = baseOffset.left;
+    if (fixedLeft &gt; ($('body').width() - 365))
+    {
+      fixedLeft = $('body').width() - 365;
+    }
+    tooltip.css({
+        'left': fixedLeft + 'px',
+        'top': (baseOffset.top + 12) + 'px'
+    }).show();
+}
+     
+var userOutside = {
+    firstShow : true,
+    onMouseEnter: function (ev, obj) {
+        var self = this;
+        prevMousePos = currentMousePos = readMousePos(ev);
+        $(obj).bind('mousemove', trackMouse);
+        function checkMouse() {
+            if (currentState != waitingToShow) {
+                $(obj).unbind('mousemove', trackMouse);
+	    } else 
+            if (prevMousePos.isClose(currentMousePos)) {
+                $(obj).unbind('mousemove', trackMouse);
+                currentState = tooltipShown;
+		placeTooltip();
+		if (self.firstShow) {
+		    content.trigger("tooltip-shown");
+		    self.firstShow = false;
+                }
+            } else { // else keep tracking
+                prevMousePos = currentMousePos;
+                window.setTimeout(checkMouse, 100);
+            }
+        }
+         
+        window.setTimeout(checkMouse, 100);
+        currentState = waitingToShow;
+    }
+};
+
+var waitingToShow = {
+    onMouseLeave: function () {
+        currentState = userOutside;
+    }
+};
+
+var tooltipShown = {
+    onMouseLeave: function () {
+        window.setTimeout(function () {
+            if (currentState == waitingToFade) {
+                currentState = userOutside;
+                tooltip.fadeOut();
+            }
+        }, 2000);
+        currentState = waitingToFade;
+    }
+};
+
+var waitingToFade = {
+    onMouseEnter: function () {
+        currentState = tooltipShown;
+    }
+};
+
+var currentState = userOutside;
+
+$(base).add(tooltip).mouseenter(function (ev) {
+  currentState.onMouseEnter &amp;&amp; currentState.onMouseEnter(ev, this);
+});
+
+$(base).add(tooltip).mouseleave(function (ev) {
+  currentState.onMouseLeave &amp;&amp; currentState.onMouseLeave(ev, this);
+});</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ tooltipContent: libx.space.WILDCARD, tooltipBase: libx.space.WILDCARD }</guardedby>
+      <require xmlns="http://libx.org/xml/libx2">tooltip.css</require>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/236</id>
+    <title>Display Availability</title>
+    <updated>2012-06-28T14:19:09-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Use the Summon availability service to display the availability of multiple items.</content>
+    <libx:module>
+      <libx:body>var availPlaceholders = tuple.availabilityPlaceholders; // array 'id' -&gt; jQuery
+/* Example URL http://api.summon.serialssolutions.com/2.0.0/availability/SU8BJ7JH4J?s.id=9HZ+b26913252&amp;s.id=9HZ+b22755603
+ */
+libx.cache.defaultMemoryCache.get({
+    url: tuple.availabilityURL,
+    dataType: 'xml',
+    success: function (doc) {        
+        var avail = libx.utils.xpath.findNodesXML(doc, "//availabilityItems/availabilities");
+        avail.forEach(function (elem) {
+            /* Preprocess results and combine those with identical status messages.
+             * Currently, there's a bug where DUE books are reported with status 'available',
+             * so we don't try to ascertain when a book needs to be recalled.
+             */
+            var displayStringFreq = { };
+            var items = libx.utils.xpath.findNodesXML(doc, "./availability", elem);
+
+            items.forEach(function (item) {
+                var str = item.getAttribute("displayString").trim();
+                if (str in displayStringFreq) 
+                    displayStringFreq[str]++;
+                else
+                    displayStringFreq[str] = 1;
+            });
+
+            var items = [];
+            for (var ds in displayStringFreq) {
+                items.push(ds);
+            }
+
+            var id = elem.getAttribute("id");
+            var $dst = availPlaceholders[id];
+
+            /* build little widget to show/hide additional copies */
+            var $w1 = null;
+            var wallText = "", sep = "";
+            for (var i = 0; i &lt; items.length; i++) {
+                var nCopies = displayStringFreq[items[i]];
+                wallText += sep + items[i] + (nCopies &gt; 1 ? " (" + nCopies + "x)": "");
+                if ($w1 == null)
+                    $w1 = $("&lt;span&gt;").html(wallText);
+                sep = "; ";
+            }
+            var $wall = $("&lt;span&gt;").html(wallText).hide();
+
+            if (items.length &gt; 1) {
+                $w1.append(" &lt;a href='#'&gt;").find("a").text("show more...").click(function () {
+                    $w1.hide();
+                    $wall.show();
+                });
+                $wall.append(" &lt;a href='#'&gt;").find("a").text("show less...").click(function () {
+                    $w1.show();
+                    $wall.hide();
+                });
+            }
+
+            $dst.append($w1);
+            $dst.append($wall);
+        });
+    }
+});</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ availabilityURL: libx.space.WILDCARD, availabilityPlaceholders: libx.space.WILDCARD }</guardedby>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/237</id>
+    <title>Format a Summon Result Record</title>
+    <updated>2012-07-27T13:36:25-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Format a single Summon Result and append to location. Also prepares place holders for availability.</content>
+    <libx:module>
+      <libx:body>/* Format a Summon result.  */
+var doc = tuple.summonRecord;
+var $dst = tuple.location;
+var availPlaceholders = tuple.availabilityPlaceholders;
+
+function c(s) {
+    return s.replace(/&lt;h&gt;/, "").replace(/&lt;\/h&gt;/, "");
+}
+
+var $l = $("&lt;div style='clear: both'&gt;");
+if (doc.thumbnail_m) {
+    $l.append("&lt;img style='float:left; padding: 5px' src='" + doc.thumbnail_m + "'&gt;");
+}
+
+doc.ContentType &amp;&amp; $l.append($("&lt;b&gt;").text(doc.ContentType[0]));
+if (doc.Title) {
+    $l.append(" ");
+    $l.append($("&lt;a&gt;").text(c(doc.Title[0])).attr('href', doc.link));
+    // TBD count clicks
+    // TBD: in some cases, this leads to an abstract only.
+}
+
+if (doc.PublicationTitle) {
+    $l.append(", ").append($("&lt;i&gt;").text(c(doc.PublicationTitle[0])));
+}
+
+/* PublicationDate may be 2012-00-00 if month/day is not known */
+doc.PublicationDate &amp;&amp; $l.append("; published " + doc.PublicationDate[0].replace("-00-00", ""));
+if (doc.availabilityId &amp;&amp; availPlaceholders) {
+    $l.append("&lt;br /&gt;");
+    $l.append(availPlaceholders[doc.availabilityId] = $("&lt;span&gt;"));
+}
+if (doc.inHoldings &amp;&amp; doc.hasFullText &amp;&amp; doc.link) {
+    $l.append('&amp;nbsp;&lt;a href="' + doc.link + '"&gt;Full Text Available Online&lt;/a&gt;');
+}
+$l.append("&lt;hr width='80%'&gt;");
+$dst.append($l);</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ summonRecord: libx.space.WILDCARD, location: libx.space.WILDCARD }</guardedby>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/247</id>
+    <title>Autolink RFCs</title>
+    <updated>2012-07-13T14:03:48-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Wrap RFC nnnn in a link to IETF Website</content>
+    <libx:libapp>
+      <libx:entry src="248">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="249">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="235">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/248</id>
+    <title>Find RFCs on Page</title>
+    <updated>2012-07-13T13:59:48-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Identify references to RFC nnn on a page.</content>
+    <libx:module>
+      <libx:body>var newNode = textNode.ownerDocument.createTextNode(match);
+
+/* Postcondition:
+ *
+ * Produce a tuple containing the new text node wrapping the RFC, and place RFC in there.
+ * Everything else is left to other modules.
+ */
+var output =
+{
+  rfctextnode:   newNode,
+  rfc:    match.toString().substring(4),
+};
+
+return [ newNode, function () { libx.space.write(output); } ];</libx:body>
+      <regexptexttransformer xmlns="http://libx.org/xml/libx2">/RFC [0-9]+/gi</regexptexttransformer>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <produces xmlns="http://libx.org/xml/libx2">"rfctextnode,rfc"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/249</id>
+    <title>Autolink RFCs</title>
+    <updated>2012-07-26T00:07:14-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Link RFC references to tools.ietf.org</content>
+    <libx:module>
+      <libx:body>/* Basic Linking */
+var $link = $(tuple.rfctextnode).wrap("&lt;a&gt;").parent();
+$link.addClass("libx-autolink");
+$link.attr('href', libx.services.rfc.getRFCURL(tuple.rfc));
+$link.click(function(){
+   libx.libapp.track({
+       actiontype:"click"
+   });
+});
+
+/* Split information into paragraphs. First paragraph is initially shown. */
+var $tooltip = $('&lt;div&gt;');
+var $lookup = $("&lt;p&gt;Looking up RFC " + tuple.rfc + "&lt;/p&gt;");
+$tooltip.append($lookup);
+
+$tooltip.bind('tooltip-shown', function () {
+  libx.services.rfc.getRFCData(tuple.rfc, function (result) {
+    $lookup.text(result);
+  });
+});
+
+libx.space.write({
+   tooltipContent: $tooltip,
+   tooltipBase: $link,
+   tooltipStyleMap: { "width": "350px" }
+});</libx:body>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ rfctextnode: libx.space.WILDCARD }</guardedby>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <produces xmlns="http://libx.org/xml/libx2">"tooltipContent,tooltipBase"</produces>
+      <require xmlns="http://libx.org/xml/libx2">autolink.css</require>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/250</id>
+    <title>Offer ILL to user when items is not found</title>
+    <updated>2012-07-27T22:46:29-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">If an item is not found in a Summon search, offer to a prefilled link to ILL (if configured)</content>
+    <libx:module>
+      <libx:body>/*
+ * tuple.position - jQuery object where to append message.
+ *
+ * Additional properties refer to biographical data, e.g.
+ * tuple.isbn
+ */
+
+if (libx.edition.options.illurl == null) {
+    return;
+}
+
+var m = tuple.metadata;
+
+var baseurl, url, tooltip;
+if (m.genre == "book") {
+   baseurl = libx.edition.options.illurl;
+   url = baseurl + "?" + "__char_set=utf8";
+   url += "&amp;url_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.genre=book";
+   url += "&amp;rft.isbn=" + m.isbn;
+   /* Title &amp; Author are required */
+   url += "&amp;rft.btitle=" + encodeURIComponent(m.title);
+   url += "&amp;rft.au=" + encodeURIComponent(m.author);
+   if (m.publisher != null)
+       url += "&amp;rft.pub=" + encodeURIComponent(m.publisher);
+   if (m.city != null)
+       url += "&amp;rft.place=" + encodeURIComponent(m.city);
+   if (m.year != null)
+       url += "&amp;rft.date=" + encodeURIComponent(m.year);
+   url += "&amp;rfr_id=info:sid/libx";
+   tooltip = "Request item via ILL";
+   tuple.position.append('&lt;a title="' + tooltip + '" href="' + url + '"&gt;' + "Request this item via ILL" + '&lt;/a&gt;');
+}
+
+if (m.genre == "article") {
+   baseurl = libx.edition.options.illurl;
+   url = baseurl + "?" + "__char_set=utf8";
+   url += "&amp;url_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.genre=article";
+   if (m.issn != null)
+       url += "&amp;rft.issn=" + m.issn;
+   if (m.isbn != null)
+       url += "&amp;rft.isbn=" + m.isbn;
+   /* Title &amp; Author are required */
+   if (m.atitle != null)
+       url += "&amp;rft.atitle=" + encodeURIComponent(m.atitle);
+   if (m.jtitle != null)
+       url += "&amp;rft.jtitle=" + encodeURIComponent(m.jtitle);
+   if (m.ptitle != null)
+       url += "&amp;rft.jtitle=" + encodeURIComponent(m.ptitle);
+   url += "&amp;rft.au=" + encodeURIComponent(m.author);
+   if (m.publisher != null)
+       url += "&amp;rft.pub=" + encodeURIComponent(m.publisher);
+   if (m.volume != null)
+       url += "&amp;rft.volume=" + encodeURIComponent(m.volume);
+   if (m.issue != null)
+       url += "&amp;rft.issue=" + encodeURIComponent(m.issue);
+   if (m.year != null)
+       url += "&amp;rft.date=" + encodeURIComponent(m.year);
+   if (m.spage != null)
+       url += "&amp;rft.spage=" + encodeURIComponent(m.spage);
+   if (m.epage != null)
+       url += "&amp;rft.epage=" + encodeURIComponent(m.epage);
+   url += "&amp;rfr_id=info:sid/libx";
+   tooltip = "Request item via ILL";
+   tuple.position.append('&lt;a title="' + tooltip + '" href="' + url + '"&gt;' + "Request this item via ILL" + '&lt;/a&gt;');
+   if (m.url != null)
+       tuple.position.append('&lt;a title="' + m.url + '" href="' + m.url + '"&gt;' + "Found Direct Link" + "&lt;/a&gt;&amp;nbsp;");
+}</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ noholdingsfound: libx.space.WILDCARD }</guardedby>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/253</id>
+    <title>Find ISSNs on Page</title>
+    <updated>2012-07-26T00:06:27-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Finds ISSNs on the page, writing each valid result to the tuple space.</content>
+    <libx:module>
+      <libx:include>/.*/</libx:include>
+      <libx:regexptexttransformer>/\b(\d{4})-(\d{3}[\dx])(?![\d\-])/ig</libx:regexptexttransformer>
+      <libx:body>/* Module: findissn
+ *  This module is guarded on a regular expression that matches on an ISSN. It
+ *  validates it, checks the edition preferences, and produces a tuple with
+ *  all the information about the ISSN that was matched.
+ */
+var issn = match[0];  // this is the actual XXXX-XXXX format number to check
+
+// -- Validation
+// check to see if the ISSN we found is a range of years
+var from = parseInt(match[1], 10);
+var to   = parseInt(match[2], 10);
+if (1000 &lt;= from &amp;&amp; 2050 &gt; from &amp;&amp; 2200 &gt; to &amp;&amp; from &lt; to) {
+    return null;
+}
+issn = libx.utils.stdnumsupport.isISSN(issn, false);
+if (issn == null) {
+    return null;
+}
+
+// -- Create Node
+var newNode = textNode.ownerDocument.createTextNode(issn);
+
+var output =
+{
+    issntextnode: newNode,
+    issn: issn
+};
+return [ newNode, function () { libx.space.write(output); } ];</libx:body>
+      <produces xmlns="http://libx.org/xml/libx2">"issntextnode,issn"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/329</id>
+    <title>AutoLink DOIs</title>
+    <updated>2013-04-17T15:56:38-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">DOI Autolinking with metadata retrieval and holdings check (if enabled)</content>
+    <libx:overrides>http://libx.org/libx2/libapps/anand121001@gmail.com/anandlibapp/323</libx:overrides>
+    <libx:module>
+      <libx:body>/* For DOI Linking, observe a user preference whether the link should go straight to dx.doi.org
+ * or be resolved via the library's OpenURL resolver.
+ */
+
+var doi = tuple.puredoi;
+var prefs = libx.prefs.getCategoryForUrl(libx.libapp.getCurrentLibapp(),                         
+    [{ name: "usedoisystem", type: "boolean", value: "false" }]);                              
+
+var url;
+
+if (prefs.usedoisystem._value || libx.edition.openurl.primary == null) {
+   url = "http://dx.doi.org/" + doi;
+} else {
+   var resolver = libx.edition.openurl.primary;
+   url = resolver.makeOpenURLForDOI(doi);
+}
+
+/* Basic Linking */
+var $link = $(tuple.doitextnode).wrap("&lt;a&gt;").parent();
+$link.addClass("libx-autolink");
+$link.attr('href', url);
+$link.click(function(){
+   libx.libapp.track({
+       actiontype:"click"
+   });
+});
+
+/* Split information into paragraphs. First paragraph is initially shown. */
+var $tooltip = $('&lt;div&gt;');
+var $lookup = $("&lt;p&gt;Searching CrossRef for " + doi + "...&lt;/p&gt;");
+$tooltip.append($lookup);
+
+var $crossrefresult = $("&lt;p&gt;");
+$tooltip.append($crossrefresult);
+
+var cat = libx.edition.catalogs.primary;
+
+var libappPref = libx.prefs.getCategoryForUrl(libx.libapp.getCurrentLibapp());    
+var stringBundle = libx.libapp.getStringBundle(libx.libapp.getCurrentModule());                    
+var altmetricPref = libappPref.ShowAltmetric;
+
+if (altmetricPref == null) {
+       altmetricPref = libx.prefs.getCategoryForUrl(libx.libapp.getCurrentLibapp(),                         
+           [{ name: "ShowAltmetric", type: "boolean", value: "true" }]);
+}
+
+$tooltip.bind('tooltip-shown', function () {
+    libx.services.crossref.getDOIMetadata({
+        doi: doi,
+        ifFound: function (text, metadata) {
+            $lookup.text("DOI: " + doi + " refers to: " + text);
+            if (altmetricPref._value) {
+                var altmetricUrl = "http://api.altmetric.com/v1/doi/"+ doi;
+                $.get(altmetricUrl).done(function(data) {
+                    var $altview = $("&lt;div&gt;&lt;/div&gt;");
+                    $crossrefresult.append($altview); 
+                    
+                    var $img = $("&lt;a title='Score' href="+data.details_url+" target='_blank'&gt;&lt;img src="+data.images.small+" style='width:40px;height:40px;float:left'/&gt;&lt;/a&gt;");
+                    var readers = data.readers;
+                    var tweets= data.cited_by_tweeters_count ? data.cited_by_tweeters_count : 0;
+                    var fbCounts = data.cited_by_fbwalls_count ? data.cited_by_fbwalls_count  : 0;
+                    var $details = $("&lt;div style='margin-left:40px;font-size:14px;position:relative;'&gt;&lt;b&gt;Readership&lt;/b&gt;: CiteULike ("+readers.citeulike+"), Mendeley ("+readers.mendeley+"), Connotea("+readers.connotea+")&lt;/div&gt;&lt;div style='margin-left: 40px;font-size:14px;position:relative;'&gt;&lt;b&gt;Social Networks&lt;/b&gt;: Tweets ("+ tweets +"), Facebook ("+ fbCounts +")&lt;/div&gt;&lt;div style='font-size:14px;position:relative;'&gt;"+stringBundle.getProperty("infoprovidedby")+" &lt;a href='http://altmetric.com/' target='_blank'&gt;Altmetrics&lt;/a&gt;, "+stringBundle.getProperty("clickhere").replace(/&lt;&lt;&lt;([^&gt;]*)&gt;&gt;&gt;/,"&lt;a href="+data.details_url+" target='_blank'&gt;$1&lt;/a&gt;")+"&lt;/div&gt;");
+                    $altview.append($img);
+                    $altview.append($details); 
+                    $altview.click(function (event) {
+                        if (event.target.nodeName.toLowerCase() == 'a' || event.target.nodeName.toLowerCase() == 'img') {
+                            libx.libapp.track({
+                                actiontype:"click"
+                            });
+                        }
+                    });
+                });
+            } else if (('summonproxyurl' in cat) || (cat.url.indexOf('summon.serialssolutions.com') &gt; 0)) {
+                var $summon = $("&lt;p&gt;").text("Checking access in " + cat.name + "...");
+                $crossrefresult.after($summon);
+                var searchInputs = [];
+                var searchInput = {};
+                searchInput.searchTerms = doi;
+                searchInput.searchType = 'doi';
+ 
+                searchInputs.push(searchInput);
+                var output = {
+                    searchparams: searchInputs,
+                    placeholder:  $summon
+                };
+
+                libx.space.write(output);
+                libx.space.write({ issearchlibapp:  false });
+                libx.space.write({ metadata: metadata });
+            }
+        },
+        notFound: function () {
+            $lookup.html("This DOI appears to be invalid. No metadata is available.");
+        }
+    }); 
+}); 
+
+libx.space.write({
+   tooltipContent: $tooltip,
+   tooltipBase: $link,
+   tooltipStyleMap: { "width": "350px" }
+});</libx:body>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ doitextnode: libx.space.WILDCARD, puredoi: libx.space.WILDCARD }</guardedby>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <produces xmlns="http://libx.org/xml/libx2">"tooltipContent,tooltipBase"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"summonRecord,location"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"noholdingsfound"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"searchparams,placeholder"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"issearchlibapp"</produces>
+      <locale xmlns="http://libx.org/xml/libx2" default="true" language="en_US">{ "clickhere" : { "message" : "Click &lt;&lt;&lt;here&gt;&gt;&gt; for more details" },"infoprovidedby" : { "message" : "Information provided by" } }</locale>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/330</id>
+    <title>Display Summon Widget Results</title>
+    <updated>2013-02-06T15:29:36-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">This module is used to fetch and render the search results from the summon widget service. It takes the input search text and fetches the result and renders the result inside the place holder. The place holder and the data fetched are both written into the tuple space</content>
+    <libx:overrides>http://libx.org/libx2/libapps/anand121001@gmail.com/anandlibapp/303</libx:overrides>
+    <libx:module>
+      <libx:body>var issummonprxyavail = (tuple.summoncatalog.summonproxyurl != null);
+if (libx.prefs.browser.showsummonwidget &amp;&amp; (libx.prefs.browser.showsummonwidget._value || !issummonprxyavail)) {
+   
+    var summonurl = tuple.summoncatalog.url.split('.')[0]; 
+    var prefix =  summonurl.substr(summonurl.indexOf('//') + 2, summonurl.length);
+    var URL = "http://"+ prefix +".summon.serialssolutions.com/widgets/search?s.q=" +      encodeURIComponent(tuple.query) + "&amp;s.ho=t&amp;s.role=authenticated&amp;format=searchwidget&amp;callback=";
+        
+    libx.cache.defaultMemoryCache.get({
+     url: URL,
+     datatype: "json",
+     success: function (data) {
+         var $hiddendiv = $("&lt;div style='display: none;' id='dummyHiddendiv'&gt;&lt;/div&gt;");
+            
+         var $dataelem= $("&lt;p id='asdasd' data-url='http://"+ prefix +".summon.serialssolutions.com/'&gt;&lt;/p&gt;");
+         $hiddendiv.empty(); 
+         $hiddendiv.append($dataelem);
+
+         $('body').append($hiddendiv);
+         
+         var isSearchLibapp = tuple.issearchlibapp;
+         var dummy = new SummonSearchWidget({
+             "id":  "#asdasd",
+             "logo":"http://assets.summon.serialssolutions.com/4e2d8068e8c195719f0000bb",
+             "params":{"q":""},
+             "style":{"width":"fixed"},
+             "title":"Summon Search Widget",
+             "searchbutton_text":"Search",
+             "jQuery": $
+         });
+         var $holder = $("&lt;div class='summon-search-box-widget'&gt;&lt;/div&gt;"); 
+         if (tuple.placeholder!= undefined) {
+             tuple.placeholder.html($holder);
+         }
+            
+         $holder.empty(); 
+        
+         var $elem = $("&lt;div id='preview-results-div' class='widget-results' style='max-height: 200px; width: 350px; overflow: auto;padding: 0px 0px 0px 0px;background-color: transparent;'&gt;&lt;/div&gt;");
+         
+         $elem.html(libx.utils.json.parse(data.substr(1, data.length-2)).results);
+         $holder.append($elem);
+         
+         if (!isSearchLibapp) { 
+             var $emptyWdgtDiv = $('.widget-empty',$elem).hide();
+             if ($emptyWdgtDiv != null &amp;&amp; $emptyWdgtDiv.length &gt; 0) {
+                 $elem.closest('p').text("0 records found in Summon");
+             }
+         } else {
+             $holder.prepend("&lt;div style='font-size:16px;'&gt;&lt;b&gt;Search Results&lt;/b&gt;&lt;/div&gt;");
+         }
+         
+         var $header = $('.widget-didyoumean',$elem);
+         if ($header != null &amp;&amp; $header.length &gt; 0) {
+             var $anchor= $('a',$header);
+             $anchor[0].setAttribute('href',"http://"+prefix +".summon.serialssolutions.com/search?s.q="+ $anchor[0].text);
+         }
+         libx.space.write({
+             summonresult: tuple.placeholder,
+             summondata: data,
+             summoncatalog: tuple.summoncatalog,
+             issummonwidget : true
+         });
+           
+    }
+});
+} else {
+    libx.space.write(tuple);
+}</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <require xmlns="http://libx.org/xml/libx2">search-widget</require>
+      <produces xmlns="http://libx.org/xml/libx2">"summonresult,summondata,summoncatalog,issummonwidget"</produces>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ summoncatalog: libx.space.WILDCARD,query: libx.space.WILDCARD,placeholder: libx.space.WILDCARD }</guardedby>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ issearchlibapp: libx.space.WILDCARD }</guardedby>
+      <produces xmlns="http://libx.org/xml/libx2">"summoncatalog,query,placeholder"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/331</id>
+    <title>Formulate Summon Query</title>
+    <updated>2013-02-06T15:25:40-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">If a search is requested (via searchparams and placeholder), this module will formulate a query for Summon. To be used in conjunction with Summon Widget and Summon Proxy.</content>
+    <libx:overrides>http://libx.org/libx2/libapps/anand121001@gmail.com/anandlibapp/289</libx:overrides>
+    <libx:module>
+      <libx:body>var issummonprxyavail = false;
+var issummonurlavail = false;
+var previewurl = '';
+var tempurl  = '';
+var currentcatalog = libx.edition.catalogs.primary;
+
+if (currentcatalog.type == 'bookmarklet') {
+   if ('summonproxyurl' in currentcatalog) {
+       issummonprxyavail = true;
+   }
+    
+   if (currentcatalog.url.indexOf('summon.serialssolutions.com') &gt; 0) {
+       issummonurlavail = true;
+   }
+   
+}
+
+if (!(issummonprxyavail || issummonurlavail))
+    return;
+
+var searchInputs = tuple.searchparams;
+var inputstr = "";
+for (var i=0; i &lt; searchInputs.length; i++) {
+    var value = searchInputs[i];
+    if (value.searchTerms == "")
+        continue;
+    inputstr += " ";
+    switch (value.searchType) {
+        case "Y":
+            inputstr += value.searchTerms;
+        break;
+        case "a":
+            inputstr += "AuthorCombined:("+ value.searchTerms +")";
+        break;
+        case "t":
+            inputstr += "title:("+ value.searchTerms +")";
+        break;
+        case "jt":
+            inputstr += "PublicationTitle:"+ value.searchTerms;
+        break;
+        case "d":
+            inputstr += "SubjectTerms:"+ value.searchTerms;
+        break;
+        case "doi":
+            inputstr +=  "DOI:("+ value.searchTerms +")";
+        break;
+        case "pmid":
+            inputstr +=  "PMID:("+ value.searchTerms +")";
+        break;
+        case "i":
+          $.each(value.searchTerms.split(' '),function(index) {
+            if (!libx.utils.stdnumsupport.isISBN(value.searchTerms) &amp;&amp; libx.utils.stdnumsupport.isISSN(this)) {
+                if (index == 0 ) {
+                    inputstr += "issn:("+ this +") OR eissn:("+ this +")";
+                } else {
+                    inputstr += " OR issn:("+ this +")";
+                }
+            } else {
+                  if (index == 0 ) {
+                    inputstr += "isbn:("+ this +")";
+                } else {
+                    inputstr += " OR isbn:("+ this +")";
+                }
+              
+                }
+          });
+  break;
+      }
+}
+
+libx.space.write({
+    summoncatalog: currentcatalog,
+    query: inputstr,
+    placeholder: tuple.placeholder
+});
+
+libx.space.write({
+    issearchlibapp: tuple.issearchlibapp
+});</libx:body>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ searchparams: libx.space.WILDCARD, placeholder: libx.space.WILDCARD  }</guardedby>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <require xmlns="http://libx.org/xml/libx2">search-widget</require>
+      <produces xmlns="http://libx.org/xml/libx2">"summoncatalog,query,placeholder"</produces>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ issearchlibapp: libx.space.WILDCARD }</guardedby>
+      <produces xmlns="http://libx.org/xml/libx2">"issearchlibapp"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/332</id>
+    <title>Create AutoLinks Around PMIDs</title>
+    <updated>2013-02-06T15:32:32-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Given a PMID and position, links the node to the corresponding resource.</content>
+    <libx:module>
+      <libx:include>/.*/</libx:include>
+      <libx:require>legacy-cues</libx:require>
+      <libx:guardedby>{ autolinkpmid: libx.space.WILDCARD , pmidtextnode: libx.space.WILDCARD, purepmid: libx.space.WILDCARD }</libx:guardedby>
+      <libx:body>var url = libx.edition.openurl.primary.makeOpenURLForPMID(tuple.purepmid);
+var resolvername = libx.edition.openurl.primary.name;
+
+/* Basic Linking */
+var $link = $(tuple.pmidtextnode).wrap("&lt;a&gt;").parent();
+$link.addClass("libx-autolink");
+$link.attr('href', url);
+$link.click(function(){
+   libx.libapp.track({
+       actiontype:"click"
+   });
+});
+
+/* Split information into paragraphs. First paragraph is initially shown. */
+var $tooltip = $('&lt;div&gt;');
+var $lookup = $("&lt;p&gt;Searching Pubmed for #" + tuple.purepmid + "...&lt;/p&gt;");
+$tooltip.append($lookup);
+
+var $pubmedResult = $("&lt;p&gt;");
+$tooltip.append($pubmedResult);
+
+var cat = libx.edition.catalogs.primary;
+
+$tooltip.bind('tooltip-shown', function () {
+    libx.services.pubmed.getPubmedMetadata({
+        pubmedid: tuple.purepmid,
+        ifFound: function (text, metadata) {
+            $lookup.text("Pubmed ID: " + tuple.purepmid + " refers to: " + text);
+            if (('summonproxyurl' in cat) || (cat.url.indexOf('summon.serialssolutions.com') &gt; 0)) {
+               var $summon = $("&lt;p&gt;").text("Checking access in " + cat.name + "...");
+               $pubmedResult.after($summon);
+                var searchInputs = [];
+                var searchInput = {};
+                searchInput.searchTerms = tuple.purepmid;
+                searchInput.searchType = 'pmid';
+ 
+                searchInputs.push(searchInput);
+                var output = {
+                    searchparams: searchInputs,
+                    placeholder:  $summon
+                };
+                libx.space.write(output);
+                libx.space.write({issearchlibapp:  false});
+                libx.space.write({metadata:  metadata});
+            }  	
+        },
+        notFound: function () {
+            $lookup.html("This Pubmed ID appears to be invalid. No metadata is available.");
+        }
+    });
+});
+
+libx.space.write({
+   tooltipContent: $tooltip,
+   tooltipBase: $link,
+   tooltipStyleMap: { "width": "350px" }
+});</libx:body>
+      <produces xmlns="http://libx.org/xml/libx2">"tooltipContent,tooltipBase"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"summonRecord,location"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"noholdingsfound"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"searchparams,placeholder"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"issearchlibapp"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/333</id>
+    <title>Autolink ISSNs</title>
+    <updated>2013-04-24T14:20:08-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Create Links around ISSNs</content>
+    <libx:module>
+      <libx:body>/* Link ISSNs via OpenURL or the primary catalog. */
+
+var open = libx.edition.openurl.primary;
+var cat = libx.edition.catalogs.primary;
+var url;
+
+var libappPref = libx.prefs.getCategoryForUrl(libx.libapp.getCurrentLibapp());    
+var stringBundle = libx.libapp.getStringBundle(libx.libapp.getCurrentModule());                    
+var journalTocPref = libappPref.ShowJournalTocs;
+
+if (journalTocPref == null) {
+    journalTocPref = libx.prefs.getCategoryForUrl(libx.libapp.getCurrentLibapp(),                         
+       [{ name: "ShowJournalTocs", type: "boolean", value: "true" }]);
+}
+
+if (open &amp;&amp; open.autolinkissn == true) {
+  url = open.makeOpenURLForISSN(tuple.issn);
+} else
+if (cat.supportsSearchType('i')) {
+   // this method handles xISSN if configured
+   // cat.makeAdvancedSearch of ISSN is returning search for ISBN
+  url = cat.makeKeywordSearch("issn:("+tuple.issn +") OR eissn:("+tuple.issn +")");
+} else
+if (cat.supportsSearchType('Y')) {
+  url = cat.makeKeywordSearch(tuple.issn);
+} else {
+  if (!journalTocPref._value)
+  return;
+}
+
+/* Basic Linking */
+var $link = $(tuple.issntextnode).wrap("&lt;a&gt;").parent();
+$link.addClass("libx-autolink");
+
+if (url)
+   $link.attr('href', url);
+
+$link.click(function(){
+   libx.libapp.track({
+       actiontype:"click"
+   });
+});
+
+/* Split information into paragraphs. First paragraph is initially shown. */
+var $tooltip = $('&lt;div&gt;');
+var $lookup = $("&lt;p&gt;Searching for " + tuple.issn + " in OCLC xISSN's database...&lt;/p&gt;");
+$tooltip.append($lookup);
+
+var $xissnResult = $("&lt;p&gt;");
+$tooltip.append($xissnResult);
+
+$tooltip.bind('tooltip-shown', function () {
+   libx.services.xisbn.getISSNMetadataAsText({
+     issn: tuple.issn,
+     ifFound: function (text) {
+       $lookup.text(tuple.issn + " refers to: " + text);
+
+       if(journalTocPref._value) {
+        var $journalTocBody = $("&lt;div style='padding-top: 6px;'&gt;&lt;/div&gt;");
+        var $journalTocHdr = $("&lt;div class='showjournalTocContent' style='font-family: Trebuchet MS;font-weight:bold;cursor: pointer;font-size: 13.5px;cursor;color: rgb(4, 70, 155);border-top-style: solid;border-top-color: black;border-top-width: 2px;padding-top: 6px;'&gt;"+stringBundle.getProperty("showjournaltoc")+"&lt;/div&gt;");
+        var $journalTocContent = $("&lt;div&gt;&lt;/div&gt;");
+        $xissnResult.after($journalTocBody );
+        $journalTocBody.append($journalTocHdr);
+        $journalTocBody.append($journalTocContent);
+
+        $journalTocHdr.click(function (e) {
+          var $spanClicked = $(e.target);
+          if (e.target.className == 'showjournalTocContent') {
+              libx.libapp.track({
+                   actiontype:"click"
+              });
+              var journalToc = {
+                  journaltocinput: tuple.issn,
+                  placeholder:  $journalTocContent 
+              };
+
+              libx.space.write(journalToc);
+
+              $spanClicked.toggleClass('showjournalTocContent hidejournalTocContent');
+              $journalTocContent.show();
+              $spanClicked.text(stringBundle.getProperty("hidejournaltoc"));
+
+           }
+           else if(e.target.className == 'hidejournalTocContent') {
+              $spanClicked.toggleClass('hidejournalTocContent showjournalTocContent');
+              $journalTocContent.hide();
+              $spanClicked.text(stringBundle.getProperty("showjournaltoc"));
+           }
+        });  
+       }  
+       if (('summonproxyurl' in cat) || (cat.url.indexOf('summon.serialssolutions.com') &gt; 0)) {
+
+           var $summon = $("&lt;p&gt;").text("Checking holdings of item in " + cat.name);
+           $xissnResult.after($summon);
+
+           var searchInputs = [];
+           var searchInput = {};
+           searchInput.searchTerms = tuple.issn;
+           searchInput.searchType = 'i';
+           searchInputs.push(searchInput);
+           var output = {
+               searchparams: searchInputs,
+               placeholder:  $summon
+           };
+           libx.space.write(output);
+           libx.space.write({issearchlibapp:  false});
+       }
+       
+     },
+     notFound: function () {
+       $lookup.html("This ISSN is not known to OCLC. No metadata is available.");
+     }
+   });
+});
+
+libx.space.write({
+   tooltipContent: $tooltip,
+   tooltipBase: $link,
+   tooltipStyleMap: { "width": "350px" }
+});</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ issntextnode: libx.space.WILDCARD, issn: libx.space.WILDCARD }</guardedby>
+      <require xmlns="http://libx.org/xml/libx2">autolink.css</require>
+      <produces xmlns="http://libx.org/xml/libx2">"tooltipContent,tooltipBase"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"summonRecord,location,availabilityPlaceholders"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"availabilityURL,availabilityPlaceholders"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"searchparams,placeholder"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"issearchlibapp"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"journaltocinput,placeholder"</produces>
+      <locale xmlns="http://libx.org/xml/libx2" default="true" language="en_US">{ "showjournaltoc" : { "message" : "Click here to show results from JournalTOCs" }, "hidejournaltoc" : { "message" : "Hide Results from JournalTocs" } }</locale>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/334</id>
+    <title>Autolink ISBNs</title>
+    <updated>2013-02-06T15:30:46-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Create Links around ISBNs</content>
+    <libx:module>
+      <libx:body>/* Link ISBNs via the primary catalog. */
+
+var cat = libx.edition.catalogs.primary;
+var url;
+if (cat.supportsSearchType('i')) {
+   // this method handles xISBN if configured
+   url = cat.linkByISBN(tuple.isbn);
+} else
+if (cat.supportsSearchType('Y')) {
+   url = cat.makeKeywordSearch(tuple.isbn);
+} else {
+   return;
+}
+
+/* Basic Linking */
+var $link = $(tuple.isbntextnode).wrap("&lt;a&gt;").parent();
+$link.addClass("libx-autolink");
+$link.attr('href', url);
+$link.click(function(){
+   libx.libapp.track({
+       actiontype:"click"
+   });
+});
+
+/* Split information into paragraphs. First paragraph is initially shown. */
+var $tooltip = $('&lt;div&gt;');
+var $lookup = $("&lt;p&gt;Searching for " + tuple.isbn + " in OCLC xISBN's database...&lt;/p&gt;");
+$tooltip.append($lookup);
+
+var $xisbnResult = $("&lt;p style='padding-top:5px;'&gt;");
+$tooltip.append($xisbnResult);
+
+/* Check for other editions only if we can use it, say to search Summon for all of them.
+ * Otherwise, xISBN via liblookup might be sufficient.
+ */
+
+$tooltip.bind('tooltip-shown', function () {
+   var askForILL = { 
+       note: function (props) {
+           for (var p in props) { this[p] = props[p]; }
+
+           if (this.metadata == null || this.position == null)
+               return;
+
+           this.metadata.isbn = tuple.isbn;
+           this.metadata.genre = "book";
+           libx.space.write({
+               position: this.position,
+               noholdingsfound: true,
+               metadata: this.metadata 
+           });
+       }
+   };
+
+   libx.services.xisbn.getISBNMetadata({
+     isbn: tuple.isbn,
+     ifFound: function (text, metadata) {
+       $lookup.text(tuple.isbn + " refers to: " + text);
+       askForILL.note({ metadata: metadata });
+     },
+     notFound: function () {
+       $lookup.html("This ISBN is not known to OCLC. No metadata is available.");
+     }
+   });
+
+if (('summonproxyurl' in cat) || (cat.url.indexOf('summon.serialssolutions.com') &gt; 0)) {
+   libx.services.xisbn.getISBNEditions({
+     isbn: tuple.isbn,
+     ifFound: function (editions) {
+        
+        var nEditions = editions.split(",").length;
+            $xisbnResult.html(nEditions + " editions of this item have been published.");
+   
+            var $summon = $("&lt;p&gt;").text("Checking holdings of all editions in " + cat.name + "...");
+            $xisbnResult.after($summon);
+
+            var searchInputs = [];
+            var searchInput = {};
+            searchInput.searchTerms = editions.replace(/,/g, " ");
+            searchInput.searchType = 'i';
+ 
+            searchInputs.push(searchInput);
+            var output = {
+                searchparams : searchInputs,
+                placeholder :  $summon
+            };
+
+            libx.space.write(output);
+            libx.space.write({ issearchlibapp :  false });
+      
+     }
+   });
+  }
+});
+
+
+libx.space.write({
+   tooltipContent: $tooltip,
+   tooltipBase: $link,
+   tooltipStyleMap: { "width": "350px" }
+});</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ isbntextnode: libx.space.WILDCARD }</guardedby>
+      <require xmlns="http://libx.org/xml/libx2">autolink.css</require>
+      <produces xmlns="http://libx.org/xml/libx2">"tooltipContent,tooltipBase"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"summonRecord,location"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"searchparams,placeholder"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"issearchlibapp"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"availabilityURL,availabilityPlaceholders"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"noholdingsfound"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/335</id>
+    <title>Repeat Any Search in Summon</title>
+    <updated>2013-02-20T16:29:32-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Repeat a search a user did on any search engine page in Summon.</content>
+    <libx:libapp>
+      <exclude xmlns="http://libx.org/xml/libx2">/summon\.serialssolutions/</exclude>
+      <exclude xmlns="http://libx.org/xml/libx2">/mail\./</exclude>
+      <locale xmlns="http://libx.org/xml/libx2" default="true" language="en_US">{ "shownotify" : { "message" : "Display popup notification" }, "dontshowagain" : { "message" : "Don't show me this again" }}</locale>
+      <libx:entry src="137">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="331">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="330">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="237">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="336">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="337">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="363">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="364">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <libx:entry src="365">
+        <args xmlns="http://libx.org/xml/libx2"/>
+      </libx:entry>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+    </libx:libapp>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/336</id>
+    <title>Display Summon Proxy Results</title>
+    <updated>2013-04-22T14:36:06-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">This module is used to fetch and render the search results from the summon proxy service. The data is first fetched from summon proxy, then it is looped over and HTML is constructed with the help of ‘Format a Summon Result Record’ and is added to the placeholder.</content>
+    <libx:module>
+      <libx:body>var issummonprxyavail = (tuple.summoncatalog.summonproxyurl != null);
+if (!(libx.prefs.browser.showsummonwidget &amp;&amp; (libx.prefs.browser.showsummonwidget._value || !issummonprxyavail))) {
+
+    var summonprxyurl = tuple.summoncatalog.summonproxyurl;
+
+    libx.cache.defaultMemoryCache.get({
+     url: summonprxyurl+"?s.q="+tuple.query,
+     dataType: "json",
+     success: function (data) {
+            
+        var title = '';
+        var length = data.documents.length;
+            
+        if (length == 0) {
+            return;
+        }
+        var displayResult = [];
+        
+        for (var i=0; i &lt; length;i++) {
+            displayResult.push(data.documents[i]);
+        }            
+        var $mesg = tuple.placeholder;
+        var $cHead = $("&lt;div style='font-size: 16px;'&gt;&lt;b&gt;Search Results&lt;/b&gt;&lt;/div&gt;");
+        var $cBody = $("&lt;div style='width:400px;height:250px;overflow-y:auto;overflow-x:hidden;'&gt;&lt;/div&gt;");
+        var $cViewAll = $("&lt;div&gt;&lt;/div&gt;");
+
+        $mesg.append($cHead);
+        $mesg.append($cBody);
+        
+        $cBody.html('');              
+        for (var i =0;i&lt; displayResult.length; i++) {
+            libx.space.write({
+                 summonRecord: displayResult[i],
+                 location :  $cBody
+            });
+        }
+ 
+        $mesg.append($cViewAll);
+
+        var summonUrl = tuple.summoncatalog.makeKeywordSearch(tuple.query);
+            
+        $cViewAll.append("&lt;div style='font-size: 13px;'&gt;&lt;b&gt;&lt;a href="+summonUrl+" style='color:#693232;'&gt;View Complete Results through Summon&lt;/a&gt;&lt;/b&gt;&lt;/div&gt;");
+        libx.space.write({
+            summonresult: $mesg,
+            summondata: data,
+            summoncatalog: tuple.summoncatalog,
+            issummonwidget: false
+        });
+    }
+});
+} else {
+    libx.space.write(tuple);
+}</libx:body>
+      <produces xmlns="http://libx.org/xml/libx2">"summonRecord,location"</produces>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ summoncatalog: libx.space.WILDCARD,query: libx.space.WILDCARD,placeholder: libx.space.WILDCARD }</guardedby>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <produces xmlns="http://libx.org/xml/libx2">"summonresult,summondata,summoncatalog,issummonwidget"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/337</id>
+    <title>Display Summon Search Summary Result Popup</title>
+    <updated>2013-10-04T14:38:10-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">This module takes the summon result and renders it based on the preference. It renders a popup which fades in. Once the popup is clicked, it passes the Jquery element (placeHolder) which contains the result of the search to the 'Render a Summon Result Record' module through the tuple space.</content>
+    <libx:module>
+      <libx:body>var recordCount;
+var $mesg;
+if(tuple.issummonwidget) {
+    $mesg = tuple.summonresult;
+   
+    var $anchorHolder = $('.widget-seeAll', $mesg);
+    var countText;
+    if ($anchorHolder != null &amp;&amp; $anchorHolder.length &gt; 0) {
+        var $anchor= $('a',$anchorHolder);
+        countText = $anchor[0].text;
+    }
+    recordCount = "";
+    for (var i =0; i &lt; countText.length; i++) {
+         if (!isNaN(countText[i])) {
+              recordCount += countText[i];
+         }
+    }
+    recordCount = Number(recordCount);
+  
+} else {
+    $mesg = tuple.summonresult;
+    recordCount = tuple.summondata.recordCount;
+}
+
+    var height = 40;
+    var style = "position:fixed;width:275px;right:20px;top:"+height+"px;background-color:#CDF;z-index:9999;border-style:solid;border-color:#CFCFDD;background-color:#DAE7E3;cursor:pointer;display:none;font-size:13px;font-family:sans-serif;z-index:10000";
+         
+    var $divNotify = $("&lt;div style="+style+"&gt;&lt;img id='image-logo' style='max-width:60px;max-height:60px;float:left;padding:6px;' /&gt;&lt;div style='padding:10px;'&gt;&lt;b style='color: rgba(58, 41, 66, 0.82);'&gt;"+ tuple.summoncatalog.name +"&lt;/b&gt; found &lt;b style='color: rgba(58, 41, 66, 0.82);'&gt;"+ recordCount +"&lt;/b&gt; results for &lt;b style='color: rgba(58, 41, 66, 0.82);'&gt;"+ tuple.searchtext+"&lt;/b&gt;&lt;div style='padding-top:6px'&gt;&lt;u style='color:#AF3434;'&gt;Click here to view Results&lt;/u&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;");
+
+    var $image = $('#image-logo',$divNotify);
+    var imageurl;
+   
+    if (tuple.summoncatalog.image != null &amp;&amp; tuple.summoncatalog.image.length &gt; 0) {
+        libx.utils.getEditionResource({
+                url: tuple.summoncatalog.image,
+                success: function (dataUri) {
+                    $image.attr('src', dataUri);
+                }
+        });
+    } else {
+        if (!imageurl) {
+                if (libx.edition.options.cueicon != null)
+                    imageurl = libx.edition.options.cueicon;
+                else
+                    imageurl = libx.edition.options.icon;
+        }
+    }
+
+    $image.attr('src', imageurl);
+    $('body').append($divNotify);
+    $divNotify.fadeIn(2000);
+
+    window.setTimeout(function(){
+        $divNotify.fadeOut(3000);
+    },6000);
+
+    $divNotify.click(function () {
+        libx.libapp.track({
+             actiontype:"click"
+        });
+ 
+        $divNotify.hide();
+               
+        libx.space.write({
+           clear : true,
+           notify: $mesg,
+           hidedontshow : true, /* suppress controls since we provide slider instead */
+           hidedontshowsite: true
+        });   
+    });</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ summonresult: libx.space.WILDCARD,summondata: libx.space.WILDCARD,summoncatalog: libx.space.WILDCARD,issummonwidget: libx.space.WILDCARD }</guardedby>
+      <produces xmlns="http://libx.org/xml/libx2">"clear,notify"</produces>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ searchtext: libx.space.WILDCARD }</guardedby>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/356</id>
+    <title>Summon Proxy for ISSN</title>
+    <updated>2013-04-24T14:19:24-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Contacts Summon service</content>
+    <libx:module>
+      <libx:body>var cat = tuple.summoncatalog;
+var issummonprxyavail = (cat.summonproxyurl != null);
+if (!(libx.prefs.browser.showsummonwidget &amp;&amp; (libx.prefs.browser.showsummonwidget._value || !issummonprxyavail))) {
+        libx.cache.defaultMemoryCache.get({
+             url: cat.summonproxyurl + '?s.q='+ tuple.query +'&amp;s.fvf[]=ContentType,Journal / eJournal,f',
+             dataType: "json",
+             success: function (data) {
+               var $summon = tuple.placeholder;
+               var $r = $("&lt;div style='max-height: 200px; overflow-x: auto'&gt;");
+               $r.append("&lt;p&gt;" + data.recordCount + " records found in " + cat.name + "&lt;/p&gt;");
+               var availPlaceholders = { };
+
+               data.documents.forEach(function (doc) {
+                 libx.space.write({
+                   summonRecord: doc,
+                   location: $r,
+                   availabilityPlaceholders: availPlaceholders
+                 });
+               });
+               $summon.empty();
+               $summon.append($r);
+               // display availability
+               if (data.availabilityPath) {
+                 libx.space.write({ 
+                   availabilityURL: "http://api.summon.serialssolutions.com" + data.availabilityPath,
+                   availabilityPlaceholders: availPlaceholders
+                 });
+               }
+            } // end success (for Summon search)
+           });
+} else {
+    libx.space.write(tuple);
+}</libx:body>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ summoncatalog: libx.space.WILDCARD,query: libx.space.WILDCARD,placeholder: libx.space.WILDCARD }</guardedby>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/357</id>
+    <title>Summon Proxy for ISBN</title>
+    <updated>2013-02-06T15:30:17.814-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Content created by anand</content>
+    <libx:module>
+      <libx:body>var cat = tuple.summoncatalog;
+
+var issummonprxyavail = (cat.summonproxyurl != null);
+if (!(libx.prefs.browser.showsummonwidget &amp;&amp; (libx.prefs.browser.showsummonwidget._value || !issummonprxyavail))) {
+ var availPlaceholders = { };
+            libx.cache.defaultMemoryCache.get({
+	        url: cat.summonproxyurl+"?s.q="+tuple.query,
+		dataType: "json",
+		success: function (data) {
+		    var $r = $("&lt;div&gt;");
+		    $r.append("&lt;p&gt;" + data.recordCount + " records found in " + cat.name + "&lt;/p&gt;");
+		    data.documents.forEach(function (doc) {
+                        libx.space.write({
+                           summonRecord: doc,
+                           location: $r,
+                           availabilityPlaceholders: availPlaceholders
+                        });
+		    });
+                    var $summon = tuple.placeholder;
+		    $summon.empty();
+		    $summon.append($r);
+
+                    if (data.documents.length == 0) {
+                        askForILL.note({ position: $summon });
+                    }
+
+                    // display availability
+ 		    if (data.availabilityPath) {
+                       libx.space.write({ 
+                            availabilityURL: "http://api.summon.serialssolutions.com" + data.availabilityPath,
+                            availabilityPlaceholders: availPlaceholders
+                       });
+                    }
+		} // end success (for Summon search)
+	   });
+} else {
+    libx.space.write(tuple);
+}</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ summoncatalog: libx.space.WILDCARD,query: libx.space.WILDCARD,placeholder: libx.space.WILDCARD }</guardedby>
+      <produces xmlns="http://libx.org/xml/libx2">"summonRecord,location"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"availabilityURL,availabilityPlaceholders"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/358</id>
+    <title>Summon Proxy for DOIS and PMIDs</title>
+    <updated>2013-02-06T15:31:39.127-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Content created by anand</content>
+    <libx:module>
+      <libx:body>var cat = tuple.summoncatalog;
+var issummonprxyavail = (cat.summonproxyurl != null);
+if (!(libx.prefs.browser.showsummonwidget &amp;&amp; (libx.prefs.browser.showsummonwidget._value || !issummonprxyavail))) {
+ libx.cache.defaultMemoryCache.get({
+                    url: cat.summonproxyurl +'?s.q='+tuple.query,
+	     	    dataType: "json",
+                    success: function (data) {
+                        var $summon = tuple.placeholder;
+		        var $r = $("&lt;div&gt;");
+		        $r.append("&lt;p&gt;" + data.recordCount + " records found in " + cat.name + "&lt;/p&gt;");
+		        data.documents.forEach(function (doc) {
+                            libx.space.write({
+                               summonRecord: doc,
+                               location: $r,
+                               // availabilityPlaceholders: availPlaceholders
+                            });
+		         });
+		        $summon.empty();
+		        $summon.append($r);
+                        if (data.documents.length == 0) {
+                            libx.space.write({
+                                position: $r,
+                                noholdingsfound: true,
+                                metadata: metadata 
+                            });
+                        }
+                    }
+                });	
+} else {
+    libx.space.write(tuple);
+}</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ summoncatalog: libx.space.WILDCARD,query: libx.space.WILDCARD,placeholder: libx.space.WILDCARD }</guardedby>
+      <produces xmlns="http://libx.org/xml/libx2">"summonRecord,location"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/363</id>
+    <title>Get Search Text and check for enabled website</title>
+    <updated>2013-05-01T14:07:07-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">For selected websites (such as Google), extract search text and trigger parallel Summon search</content>
+    <libx:module>
+      <libx:body>//%24+%26+%3C+%3E+%3F+%3B+%23+%3A+%3D+%2C+%22+%27+%7E+%2B+%25
+//$ &amp;amp; &amp;lt; &amp;gt; ? ; # : = , " ' ~ + 
+
+$(window).bind('hashchange', function() {
+    getSearchTextFromUI();
+});
+
+var EncodingTable = [];
+var site = "";
+EncodingTable[" "] = "+";
+EncodingTable["$"] = "%24";
+EncodingTable["&amp;"] = "%26";
+EncodingTable["%"] = "%25";
+EncodingTable["+"] = "%2B";
+EncodingTable["'"] = "%27";
+EncodingTable["#"] = "%23";
+
+function getPageUrl() {
+    var url=window.location.href;
+    var index = url.indexOf("%20");
+   
+    while (index &gt; 0) {
+        var newurl = url.substr(0,index)+'+'+url.substr(index+3);
+        url = newurl;
+        index = url.indexOf("%20");
+    } 
+    url = url.replace("http://","");
+    url = url.replace("https://","");
+    
+    var idx = url.length;
+    if((url.indexOf('/') &gt; 0) &amp;&amp; (url.indexOf('/') &lt; idx)) {
+       idx = url.indexOf('/'); 
+    }
+    if((url.indexOf('?') &gt; 0) &amp;&amp; (url.indexOf('?') &lt; idx)) {
+       idx = url.indexOf('?'); 
+    } 
+    if((url.indexOf('#') &gt; 0) &amp;&amp; (url.indexOf('#') &lt; idx)) {
+      idx = url.indexOf('#'); 
+    } 
+    site = url.substr(0,idx);
+  
+    return url;
+}
+ 
+
+function getUrlEnc(text) {
+    return EncodingTable[text];
+}
+
+function trim(str) {
+  var rgxtrim = new RegExp('^\\s+|\\s+$', 'g');
+  return str.replace(rgxtrim, '');
+}
+
+function getUrlTokens(url) {
+    var finalTokens = [];
+    var tokens = url.split('?');
+    for (var i=0; i &lt; tokens.length; i++){
+        if (tokens[i]) {
+            var secondarySplit = tokens[i].split('&amp;'); 
+            for (var j=0; j &lt; secondarySplit.length; j++){
+                 if (secondarySplit[j]) {
+                     var finalValues = secondarySplit[j].split('=');
+                     for (var k=0; k &lt; finalValues.length; k++){
+                         if (finalValues[k]) {
+                             var truncatedVal = finalValues[k];
+                             while (truncatedVal.lastIndexOf('+')== truncatedVal.length-1) {
+                                 truncatedVal = truncatedVal.slice(0, truncatedVal.length - 1);
+                             }    
+                             finalTokens.push(truncatedVal);
+                         }
+                     }
+                 }
+            }
+        }
+    }
+    return finalTokens;
+}
+
+function getSearchtext(UIText,urlTokens) {
+    var isSet = false;  
+    var searchTxt = ''; 
+    for (var i=0; i &lt; UIText.length; i++) {
+        var item = UIText[i];
+        for(var j=0; j &lt; urlTokens.length; j++){
+            if (urlTokens[j]==item) {
+                searchTxt = item;
+                break;  
+            }
+        }
+    }
+    return searchTxt;
+}
+
+
+function getUrlEncodedString(inputText) {
+    var encodedStr = '';
+    for (var i=0;i &lt; inputText.length; i++) {
+        if(EncodingTable[inputText[i]]) {
+	    var convertedStr = getUrlEnc(inputText[i]);
+	    var result = inputText.substr(0,i)+convertedStr+inputText.substr(i+1,inputText.length);
+	    inputText = result;
+	    i = i + convertedStr.length -1;
+	}
+    }
+    encodedStr = inputText;
+
+    return encodedStr;
+}
+	
+function getSearchTextFromUI() {
+    var $textBoxes = $(':text');
+    var inpText= [];
+    var dctTextEncodedText = [];
+    var url = getPageUrl();
+    var isResearchModeOn = false;
+    
+    var libappPrefs = libx.prefs.getCategoryForUrl(libx.libapp.getCurrentLibapp());
+    if (libappPrefs['EnabledWebsites'] != null) {
+        if(libappPrefs['EnabledWebsites']._items != null &amp;&amp; libappPrefs['EnabledWebsites']._items.length &gt; 0) {
+            for (var i=0; i &lt; libappPrefs['EnabledWebsites']._items.length; i++ ) {
+                 if (libappPrefs['EnabledWebsites']._items[i]._value== site &amp;&amp; libappPrefs['EnabledWebsites']._items[i]._selected)   {
+                      isResearchModeOn = true;    
+              }
+        }
+    }}
+    if (!isResearchModeOn ) {
+        return;    
+    }
+
+    var isSearchTextAvail = false;
+    var searchTxt = '';
+    if (tuple.searchboxinput != null) {
+        var searchBox = tuple.searchboxinput;
+        if (searchBox.val() != undefined) {
+            var str = trim(searchBox.val());
+            var encOutput = getUrlEncodedString(str);
+	    dctTextEncodedText[encOutput]= str;
+	    inpText.push(encOutput);
+            isSearchTextAvail  = true;
+        }
+    }
+    var urlTokens = getUrlTokens(url);
+    console.log(urlTokens);
+    if (!isSearchTextAvail) {
+        $.each ($textBoxes, function() {
+        // Encode the search Text be4 pushing through URL Encoding
+            if ($(this).val() != undefined &amp;&amp; $(this).val().length &gt; 0 &amp;&amp; $(this).css('display') != 'none' &amp;&amp; $(this).type != "password") {
+                var str = trim($(this).val());
+     	        var encOutput = getUrlEncodedString(str);
+	        dctTextEncodedText[encOutput]= str;
+	        inpText.push(encOutput);
+            }
+        });
+          
+        searchTxt = dctTextEncodedText[getSearchtext(inpText,urlTokens)];
+        
+        if(searchTxt == undefined || (searchTxt != undefined &amp;&amp; searchTxt.length == 0)) {
+            var $textAreas = $('textarea');
+
+            inpText= [];
+            dctTextEncodedText =[];
+   
+            $.each ($textAreas, function() {
+            // Encode the search Text be4 pushing through URL Encoding
+                if ($(this).val() != undefined &amp;&amp; $(this).val().length &gt; 0) {
+                    var str = trim($(this).val());
+	            var encodedOut = getUrlEncodedString(str);
+	            dctTextEncodedText[encodedOut]= str;
+	            inpText.push(encodedOut);
+                }
+            });
+  
+            searchTxt = dctTextEncodedText[getSearchtext(inpText,urlTokens)];
+       } 
+    }else {      
+        var searchString = getSearchtext(inpText,urlTokens);
+        if (dctTextEncodedText[searchString]) {
+            searchTxt = dctTextEncodedText[searchString]; 
+        } else {
+            searchTxt = searchString;
+        }
+    }
+
+    if (searchTxt != undefined &amp;&amp; searchTxt.length &gt; 0) {
+   //Notify Search Text
+       var searchInputs = [];
+
+       var searchInput = {};
+       searchInput.searchTerms = searchTxt;
+       searchInput.searchType = 'Y';
+ 
+       searchInputs.push(searchInput);
+       var output = {
+           searchparams: searchInputs,
+           placeholder: $("&lt;div&gt;&lt;/div&gt;")
+       };
+   
+       libx.space.write(output);
+       libx.space.write({currentsite: site});
+       libx.space.write({searchtext: searchTxt });
+       libx.space.write({issearchlibapp: true });
+    }
+
+}
+
+getSearchTextFromUI();</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ searchboxinput : libx.space.WILDCARD }</guardedby>
+      <produces xmlns="http://libx.org/xml/libx2">"searchparams,placeholder"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"issearchlibapp"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"searchtext"</produces>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/364</id>
+    <title>Website list with css details</title>
+    <updated>2013-03-22T19:58:11-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Contains list of supported websites with information where to place icon. Control module for Repeat Any Search in Summon</content>
+    <libx:module>
+      <libx:body>var currentcatalog = libx.edition.catalogs.primary;
+var issummonavail =  false;
+if (currentcatalog.type == 'bookmarklet') {
+   if (('summonproxyurl' in currentcatalog) || (currentcatalog.url.indexOf('summon.serialssolutions.com') &gt; 0)) {
+       issummonavail = true;
+   }
+}
+
+if (!issummonavail) {
+    return;    
+} 
+
+function getPageWebsite() {
+    var url=window.location.href;
+    var index = url.indexOf("%20");
+   
+    while (index &gt; 0) {
+        var newurl = url.substr(0,index)+'+'+url.substr(index+3);
+        url = newurl;
+        index = url.indexOf("%20");
+    } 
+    url = url.replace("http://","");
+    url = url.replace("https://","");
+    
+    var idx = url.length;
+    if((url.indexOf('/') &gt; 0) &amp;&amp; (url.indexOf('/') &lt; idx)) {
+       idx = url.indexOf('/'); 
+    }
+    if((url.indexOf('?') &gt; 0) &amp;&amp; (url.indexOf('?') &lt; idx)) {
+       idx = url.indexOf('?'); 
+    } 
+    if((url.indexOf('#') &gt; 0) &amp;&amp; (url.indexOf('#') &lt; idx)) {
+      idx = url.indexOf('#'); 
+    } 
+    site = url.substr(0,idx);
+  
+    return site;
+}
+var libappPrefs = libx.prefs.getCategoryForUrl(libx.libapp.getCurrentLibapp());
+var isPrefAvailfrSite = false;
+var site = window.location.hostname; // was: getPageWebsite();
+var pageurl = window.location.href;
+
+if (libappPrefs['EnabledWebsites'] == null ) {
+    libappPrefs._addPreference({ _name: "EnabledWebsites", _type: "multichoice"});               
+}
+for (var i=0; i &lt; libappPrefs['EnabledWebsites']._items.length; i++ ) {
+     if (libappPrefs['EnabledWebsites']._items[i]._value== site) {
+         isPrefAvailfrSite = true;
+         break; 
+     }
+}
+if (!isPrefAvailfrSite) {
+    libappPrefs['EnabledWebsites']._addItem({ _value:site ,_type: "string", _selected: true });                                      
+}
+
+if (/.*google\.com.*\/search\/*/.test(pageurl) || (/.*google\.com[^\/]*\/$/.test(pageurl))) {
+    libx.space.write({
+        divholder : $('#gbqfqw'),
+        css : { 'margin-top' : '30px','margin-left' : '-55px' }
+    });
+
+    libx.space.write({ searchboxinput : null });
+}
+
+if (site == "www.bing.com") {
+    libx.space.write({
+        divholder : $('.sw_bd'),
+        css : { 'margin-top' : '2px','margin-left' : '-55px' }
+    });
+    libx.space.write({ searchboxinput : null });
+}
+
+
+if(site == "search.yahoo.com") {
+    libx.space.write({
+        divholder : $('#sbx'),
+        css : { 'margin-top' : '32px','margin-left' : '-50px' }
+    });
+    libx.space.write({ searchboxinput : null });
+}
+
+libx.space.write({ website : site, summoncatalog : currentcatalog });</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*google.*/</include>
+      <produces xmlns="http://libx.org/xml/libx2">"website,summoncatalog"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"divholder,css"</produces>
+      <produces xmlns="http://libx.org/xml/libx2">"searchboxinput"</produces>
+      <include xmlns="http://libx.org/xml/libx2">/.*bing.*/</include>
+      <include xmlns="http://libx.org/xml/libx2">/.*yahoo.*/</include>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/365</id>
+    <title>On/Off Module for Generic Search</title>
+    <updated>2013-02-22T12:21:07-05:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Content created by anand</content>
+    <libx:module>
+      <libx:body>var $divContainer = tuple.divholder;
+var site =  tuple.website;
+var stringBundle = libx.libapp.getStringBundle(libx.libapp.getCurrentModule());
+
+var isSwitchOn = false;
+function turnOnSwitch($button) {
+    isSwitchOn = true;
+    $button.addClass('on').html('ON').css({'margin-left': '25px',background: 'rgb(26, 119, 49)',border: '1px solid #0f3f74'});
+     for (var i=0; i &lt; libappPrefs['EnabledWebsites']._items.length; i++ ) {
+           if (libappPrefs['EnabledWebsites']._items[i]._value== site) {
+               libappPrefs['EnabledWebsites']._items[i]._selected = true;  
+               libx.preferences.save();
+           }
+     }
+}
+
+function turnOffSwitch($button) {
+    isSwitchOn = false;
+    $button.removeClass('on').html('OFF').css({'margin-left': '0px','background': 'rgb(242, 6, 0)',border: '1px solid #0f3f74'});
+    for (var i=0; i &lt; libappPrefs['EnabledWebsites']._items.length; i++ ) {
+         if (libappPrefs['EnabledWebsites']._items[i]._value== site) {
+             libappPrefs['EnabledWebsites']._items[i]._selected = false;  
+             libx.preferences.save();
+         }
+    }
+}
+
+var $stageSection = $("&lt;section id='stage'&gt;&lt;/section&gt;");
+$divContainer.append($stageSection);
+
+$stageSection.css({display: 'block', 'float': 'right'});
+
+var $siderFrame = $("&lt;div class='slider-frame'&gt;&lt;/div&gt;");
+
+var $innerDivContainer = $("&lt;div style='position:absolute;'&gt;&lt;/div&gt;");
+$innerDivContainer.attr('title',stringBundle.getProperty('researchModeTitle'));
+$innerDivContainer.css(tuple.css);
+
+$stageSection.append($innerDivContainer);
+
+var $image = $("&lt;img src='' style='position:absolute;margin-left:-20px;width:20px;height:20px' /&gt;");
+var imageurl;
+
+if (tuple.summoncatalog.image != null &amp;&amp; tuple.summoncatalog.image.length &gt; 0) {
+    libx.utils.getEditionResource({
+            url: tuple.summoncatalog.image,
+            success: function (dataUri) {
+                $image.attr('src', dataUri);
+            }
+    });
+} else {
+    if (libx.edition.options.cueicon != null)
+        imageurl = libx.edition.options.cueicon;
+    else
+        imageurl = libx.edition.options.icon;
+   
+    $image.attr('src', imageurl);
+}
+
+
+$innerDivContainer.append($image);
+$innerDivContainer.append($siderFrame);
+
+$siderFrame.css({ width: '52px',
+                  height: '17px',
+                  cursor: 'pointer',
+                  'background-repeat': 'no-repeat',
+                  'background-image': '-webkit-gradient(linear, left top, left bottom, from(#2b2b2b), to(#404040))',
+                  'background-image': '-webkit-linear-gradient(#2b2b2b, #404040)',
+                  'background-image': '-moz-linear-gradient(#2b2b2b, #404040)',
+                  'background-image': '-o-linear-gradient(top, #2b2b2b, #404040)',
+                  'background-image': '-khtml-gradient(linear, left top, left bottom, from(#2b2b2b), to(#404040))',
+                  filter: "progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#2b2b2b', EndColorStr='#404040', GradientType=0)",
+                  '-ms-filter': "progid:DXImageTransform.Microsoft.gradient(startColorStr='#2b2b2b', EndColorStr='#404040', GradientType=0))",
+                  'border-top': '1px solid #333333',
+                  'border-right': '1px solid #333333',
+                  'border-bottom': '1px solid #666666',
+                  'border-left': '1px solid #333333',
+                  '-moz-border-radius': '5px',
+                  'border-radius': '5px',
+                  '-webkit-box-shadow': 'inset 0px 1px 8px 0 rgba(0, 0, 0, 0.25)',
+                  '-moz-box-shadow': 'inset 0px 1px 8px 0 rgba(0, 0, 0, 0.25)',
+                  'box-shadow': 'inset 0px 1px 8px 0 rgba(0, 0, 0, 0.25)'
+                  });
+
+var $sliderButton = $("&lt;span class='slider-button'&gt;OFF&lt;/span&gt;");
+
+$siderFrame.append($sliderButton);
+$sliderButton.css({'display': 'block',
+                   'margin': '0',
+                   'padding': '0',
+                   'width': '25px',
+                   'height': '15px',
+                   'line-height': '17px',
+                   'background': 'rgb(242, 6, 0)',
+                   '-moz-border-radius': '5px',
+                   'border-radius': '5px',
+                   'border': '1px solid #70430e',
+                   '-webkit-transition': 'all 0.25s ease-in-out',
+                   '-moz-transition': 'all 0.25s ease-in-out',
+                   transition: 'all 0.25s ease-in-out',
+                   color: '#fff',
+                   'font-family':'Helvetica',
+                   'font-size':'11px',
+                   'font-weight': 'bold',
+                   'text-shadow': '1px 1px 2px rgba(0, 0, 0, 0.5)',
+                   'text-align': 'center',
+                    cursor: 'pointer'
+                 });
+        
+  var libappPrefs = libx.prefs.getCategoryForUrl(libx.libapp.getCurrentLibapp());
+  var isPrefAvailfrSite = false;
+
+  if (libappPrefs['EnabledWebsites'] != null) {
+      if (libappPrefs['EnabledWebsites']._items != null &amp;&amp; libappPrefs['EnabledWebsites']._items.length &gt; 0) {
+          for (var i=0; i &lt; libappPrefs['EnabledWebsites']._items.length; i++ ) {
+               if (libappPrefs['EnabledWebsites']._items[i]._value== site) {
+                   if (libappPrefs['EnabledWebsites']._items[i]._selected) {
+                       turnOnSwitch($sliderButton);
+                   } else {
+                       turnOffSwitch($sliderButton);
+                   }    
+              }
+          }
+      }
+  }
+  $siderFrame.click(function(){
+      if (!isSwitchOn) {
+          turnOnSwitch($sliderButton);
+      } else {
+          turnOffSwitch($sliderButton);
+      }
+  });</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <require xmlns="http://libx.org/xml/libx2">jquery</require>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ divholder : libx.space.WILDCARD, css : libx.space.WILDCARD }</guardedby>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ website: libx.space.WILDCARD, summoncatalog: libx.space.WILDCARD  }</guardedby>
+      <locale xmlns="http://libx.org/xml/libx2" default="true" language="en_US">{ "shownotify" : { "message" : "Display popup notification" }, "dontshowagain" : { "message" : "Don't show me this again" }, "researchModeTitle" : {"message" : "Research Mode On/Off : Turn On this mode if you wish to search and render results from summon"} }</locale>
+    </libx:module>
+  </entry>
+  <entry xmlns:libx="http://libx.org/xml/libx2">
+    <id>http://libx.org/libx2/libapps/397</id>
+    <title>Show Results from JournalToc</title>
+    <updated>2013-04-24T14:17:31.765-04:00</updated>
+    <author>
+      <name>LibX Team</name>
+      <uri>http://libx.org/</uri>
+      <email>libx.editions@gmail.com</email>
+    </author>
+    <content type="html">Content created by anand</content>
+    <libx:module>
+      <libx:body>var issn = tuple.journaltocinput;
+var $container = tuple.placeholder;
+var stringBundle = libx.libapp.getStringBundle(libx.libapp.getCurrentModule()); 
+
+      var $journalTocLookup = $("&lt;p&gt;Searching for ISSN: " + issn + " in JournalTOC's database...&lt;/p&gt;");
+      $container.html($journalTocLookup);
+
+      var journalTocUrl = 'http://www.journaltocs.ac.uk/api/journals/' +issn +'?output=articles&amp;user=libx.org@gmail.com'; 
+      jQuery.getFeed({
+   url: journalTocUrl ,
+   success: function(feed) {
+
+      var $journalTocPopup = $("&lt;div style='max-height:200px;overflow-y:auto;overflow-x:hidden;'&gt;&lt;/div&gt;");
+      var journalUrl = "http://www.journaltocs.ac.uk/index.php?action=search&amp;query="+issn;
+      
+      var length = 0;
+      if (feed.items)
+          length = feed.items.length;
+      var $title = $("&lt;div&gt;&lt;b&gt;Current table of contents provided by &lt;u&gt;&lt;a href="+journalUrl+" target='_blank'&gt;JournalTocs&lt;/a&gt;&lt;/u&gt; found "+ length  +" articles for ISSN: "+ issn+"&lt;/b&gt;&lt;/div&gt;");
+      $journalTocPopup.append($title);
+
+      if(length &gt; 0) {
+          var $content = $("&lt;div&gt;&lt;/div&gt;");
+
+          for (var i=0; i &lt; feed.items.length; i++) {
+              var $line = $("&lt;div style='border-bottom:rgb(85,84,84);border-bottom-style:solid;border-bottom-width:2px;'&gt;&lt;div&gt;&lt;b&gt;"+stringBundle.getProperty("title")+" : &lt;/b&gt;&lt;a href="+feed.items[i].link+" target='_blank'&gt; "+feed.items[i].title+"&lt;/a&gt;&lt;/div&gt;&lt;div style='font-size:13.5px;'&gt;&lt;span class='showDescription' style='font-family: Trebuchet MS;font-weight:bold;cursor: pointer;font-size: 12.5px;cursor;color: rgb(4, 70, 155);'&gt;"+stringBundle.getProperty("showdescription")+"&lt;/span&gt;&lt;div class='description' style='display:none;'&gt;&lt;b&gt;"+stringBundle.getProperty("description")+" : &lt;/b&gt;"+feed.items[i].description+"&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;");
+
+              $content.append($line);
+          }
+
+          $journalTocPopup.append($content);
+          $journalTocPopup.click(function(e){
+              if (event.target.nodeName.toLowerCase() == 'a') {
+                  libx.libapp.track({
+                      actiontype:"click"
+                  });
+                  return true;  
+              }
+
+              if(e.target.className == 'showDescription') {
+                 var $spanClicked = $(e.target);
+                 $spanClicked.toggleClass('showDescription hideDescription');
+                 $('.description', $spanClicked.parent()).show();
+                 $spanClicked.text(stringBundle.getProperty("hidedescription"));
+
+                 libx.libapp.track({
+                      actiontype:"click"
+                 });
+              }
+              else if(e.target.className == 'hideDescription') {
+                 var $spanClicked = $(e.target);
+                 $spanClicked.toggleClass('hideDescription showDescription');
+                 $('.description', $spanClicked.parent()).hide();
+                 $spanClicked.text(stringBundle.getProperty("showdescription"));
+              }
+              return true;
+          });
+      }
+      $container.html($journalTocPopup);              
+   }
+});</libx:body>
+      <include xmlns="http://libx.org/xml/libx2">/.*/</include>
+      <guardedby xmlns="http://libx.org/xml/libx2">{ journaltocinput: libx.space.WILDCARD, placeholder: libx.space.WILDCARD }</guardedby>
+      <locale xmlns="http://libx.org/xml/libx2" default="true" language="en_US">{ "title" : { "message" : "Title" }, "description" : { "message" : "Description" },"hidedescription" : { "message" : "Hide Description" },"showdescription" : { "message" : "Show Description" } }</locale>
+      <require xmlns="http://libx.org/xml/libx2">https://raw.github.com/jfhovinne/jFeed/master/build/dist/jquery.jfeed.js</require>
+    </libx:module>
+  </entry>
+</feed>
