@@ -1,0 +1,27 @@
+i{
+  "name": "libx-prototype",
+  "version": "1.0.0",
+  "description": "Libx prototype",
+  "main": "loader.js",
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntarora/libx-prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntarora/libx-prototype/issues"
+  },
+  "homepage": "https://github.com/ntarora/libx-prototype#readme"
+}
