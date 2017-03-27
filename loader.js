@@ -8,7 +8,7 @@
 	Loader.js loads all new modules
 */
 import amazon from './Amazon';
-import walker from './Walker';
+import walker from './walker';
 
 let apps = [amazon]
 let utils = [walker]

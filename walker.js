@@ -7,7 +7,15 @@ class Walker {
 
 	constructor(){
 		this.regexpatterns = [];
-	}
+        this.rejectScriptTextFilter = {
+            acceptNode: function(node) {
+                if (node.parentNode.nodeName !== 'SCRIPT') {
+                    return NodeFilter.FILTER_ACCEPT;
+                }
+            }
+        };
+
+    }
 
 	registerPattern(pattern){
 		const length = this.regexpatterns.length;
@@ -15,11 +23,13 @@ class Walker {
 
 		return new Promise((fulfill, reject) => {
 			if(length + 1 == this.regexpatterns.length)
-				fulfill(true)
+				fulfill(true);
 			else
 				reject(false)
 		})
 	}
+
+
 
 	/**
 	 *
@@ -28,7 +38,7 @@ class Walker {
 	 */
 	
 	initWalker(){
-		let walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {acceptNode : function(node){return NodeFilter.FILTER_ACCEPT}}, false)
+		let walker = document.createTreeWalker(window.document.documentElement, NodeFilter.SHOW_ALL, this.rejectScriptTextFilter, false)
 
 		return new Promise((fulfill, reject) =>{
 			if(walker)
@@ -53,31 +63,37 @@ class Walker {
 	{
 		let nodeList = []
 		let self = this
-		this.initWalker().then(function(walker){
+		return this.initWalker().then(function(walker){
 			//walk the nodes match regex patterns in the node list
 			while(walker.nextNode())
 			{
-				for(let pattern of self.regexpatterns)
+				if(walker.currentNode.nodeType == 3)
 				{
-					// let regex = new RegExp(pattern)
-					// let match = regex.exec(walker.currentNode.text.data)
-					// if(match)
-					// {
-					// 	nodeList.push(currentNode);
-					// }
-					if(walker.currentNode.nodeValue)
-					{
-						console.log(walker.currentNode.nodeValue)
-						let result = pattern(walker.currentNode.nodeValue)
-						if(result)
-							nodeList.push(walker.currentNode);
-					}
-					
+                    for(let pattern of self.regexpatterns)
+                    {
+                        // let regex = new RegExp(pattern)
+                        // let match = regex.exec(walker.currentNode.text.data)
+                        // if(match)
+                        // {
+                        // 	nodeList.push(currentNode);
+                        // }
+                        if(walker.currentNode.data)
+                        {
+                            let result = pattern(walker.currentNode.data)
+                            if(result)
+                            {
+                                nodeList.push(walker.currentNode);
+
+                            }
+                        }
+
+                    }
 				}
+
 			}
 			return new Promise((fulfill, reject) => {
 				if(nodeList.length > 0)
-					fulfill(nodeList)
+					fulfill(nodeList);
 				else
 					reject('no matches found on page')
 			})

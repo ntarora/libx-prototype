@@ -24,12 +24,11 @@ class Amazon {
 	
 	
 	fires (nodeList){
-		for(node in nodeList)
+		for(let node in nodeList)
 		{
-			console.log(node)
-			//convertISBN(node);
+			//nodeList[node] node with ISBN CHANGED
 		}
-		
+
 	};
 
 
