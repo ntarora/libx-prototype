@@ -12,6 +12,8 @@
 		- fires : called by loader to run main functionality of lib
 */
 import stdNum from './stdnumsupport';
+import anchorNode from './textTransformer';
+import toolTip from './toolTip';
 
 class Amazon {
 
@@ -19,14 +21,28 @@ class Amazon {
 		this.Num = new stdNum()
 		this.name = "Amazon ISBN Linker"
 		this.matchPattern = true;
-		this.regex = this.Num.isISBN.bind(this.Num); 
+		this.regexObj = /((978[\--– ])?[0-9][0-9\--– ]{10}[\--– ][0-9xX])|((978)?[0-9]{9}[0-9Xx])/g;
+		this.regex = this.Num.isISBN.bind(this.Num);
+		this.nodeList = [];
 	}
 	
 	
-	fires (nodeList){
-		for(let node in nodeList)
+	fires (){
+		var i = 0;
+		for(let node in this.nodeList)
 		{
+
 			//nodeList[node] node with ISBN CHANGED
+			let node = this.nodeList[node];
+			let regexObj = this.regexObj
+			anchorNode({node, regexObj}).then(function (node){
+				let idString = `${new Date().valueOf() + (Math.random() * 100)}`
+				node.setAttribute("id", idString)
+				console.log(node)
+				toolTip(idString)
+			}).catch(function(err){
+				console.log(err)
+			})
 		}
 
 	};

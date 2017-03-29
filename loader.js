@@ -21,7 +21,7 @@ function load(apps, utils){
 	{
 		if(app.matchPattern)
 		{
-			walker.registerPattern(app.regex).then(function(){
+			walker.registerPattern({regex: app.regex, nodeList : app.nodeList}).then(function(){
 				console.log(app.name + ' registered pattern')
 			}).catch(function(){
 				console.log(app.name + 'failed to register pattern')

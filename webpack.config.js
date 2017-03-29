@@ -8,13 +8,23 @@
          filename: 'bundle.js'
      },
      module: {
-    rules: [{
-      test: /\.js$/,
-      exclude: /(node_modules)/,
-      use: [{
-        loader: 'babel-loader'
-      }]
-    }]
+        rules: [{
+          test: /\.js$/,
+          exclude: /(node_modules)/,
+          use: [{
+            loader: 'babel-loader'
+          }]
+        },
+            {
+                test: /\.css$/,
+                use: [ 'style-loader', 'css-loader' ]
+            }]
   },
-     devtool: 'source-map'
+     devtool: 'source-map',
+     plugins: [
+         new webpack.ProvidePlugin({
+             $: "jquery",
+             jQuery: "jquery"
+         })
+     ]
  };

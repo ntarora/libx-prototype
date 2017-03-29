@@ -6,10 +6,10 @@
 class Walker {
 
 	constructor(){
-		this.regexpatterns = [];
+		this.apps = [];
         this.rejectScriptTextFilter = {
             acceptNode: function(node) {
-                if (node.parentNode.nodeName !== 'SCRIPT') {
+                if (node.parentNode.nodeName !== 'SCRIPT' && node.parentNode.nodeName !== 'STYLE' ) {
                     return NodeFilter.FILTER_ACCEPT;
                 }
             }
@@ -17,12 +17,17 @@ class Walker {
 
     }
 
-	registerPattern(pattern){
-		const length = this.regexpatterns.length;
-		this.regexpatterns.push(pattern);
+    /**
+	 *
+     * @param patternObj {regex: function, nodeList: reference to nodeList}
+     * @returns {Promise}
+     */
+	registerPattern(patternObj){
+		const length = this.apps.length;
+		this.apps.push(patternObj);
 
 		return new Promise((fulfill, reject) => {
-			if(length + 1 == this.regexpatterns.length)
+			if(length + 1 == this.apps.length)
 				fulfill(true);
 			else
 				reject(false)
@@ -64,12 +69,13 @@ class Walker {
 		let nodeList = []
 		let self = this
 		return this.initWalker().then(function(walker){
+			let matches = 0;
 			//walk the nodes match regex patterns in the node list
 			while(walker.nextNode())
 			{
 				if(walker.currentNode.nodeType == 3)
 				{
-                    for(let pattern of self.regexpatterns)
+                    for(let app of self.apps)
                     {
                         // let regex = new RegExp(pattern)
                         // let match = regex.exec(walker.currentNode.text.data)
@@ -79,10 +85,10 @@ class Walker {
                         // }
                         if(walker.currentNode.data)
                         {
-                            let result = pattern(walker.currentNode.data)
+                            let result = app.regex(walker.currentNode.data)
                             if(result)
                             {
-                                nodeList.push(walker.currentNode);
+                                app.nodeList.push(walker.currentNode);
 
                             }
                         }
@@ -92,15 +98,22 @@ class Walker {
 
 			}
 			return new Promise((fulfill, reject) => {
-				if(nodeList.length > 0)
-					fulfill(nodeList);
+				if(matches > 0)
+					fulfill(true);
 				else
-					reject('no matches found on page')
+					reject(false)
 			})
 
 		})
 		.catch(function(err){
 			console.log(err);
+		})
+	}
+
+	generator(node)
+	{
+		return new Promise((fullfill, reject) =>{
+
 		})
 	}
 
