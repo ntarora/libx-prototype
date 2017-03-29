@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Libapps prototype 0.01",
+  "description": "Testing promosie based libapps, with treewalker",
+  "version": "0.01",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.com/*"],
+      "js": ["bundle.js"]
+    }
+  ],
+  "web_accessible_resources": ["bundle.js.map"],
+  "permissions": [
+    "activeTab"
+  ]
+}
