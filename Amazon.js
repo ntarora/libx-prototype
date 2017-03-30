@@ -21,7 +21,7 @@ class Amazon {
 		this.Num = new stdNum()
 		this.name = "Amazon ISBN Linker"
 		this.matchPattern = true;
-		this.regexObj = /((978[\--– ])?[0-9][0-9\--– ]{10}[\--– ][0-9xX])|((978)?[0-9]{9}[0-9Xx])/g;
+		this.regexObj = /((978[\--– ])?[0-9][0-9\--– ]{11}[\--– ][0-9xX])|((978)?[0-9]{9}[0-9Xx])/g;
 		this.regex = this.Num.isISBN.bind(this.Num);
 		this.nodeList = [];
 	}
@@ -36,9 +36,8 @@ class Amazon {
 			let node = this.nodeList[node];
 			let regexObj = this.regexObj
 			anchorNode({node, regexObj}).then(function (node){
-				let idString = `${new Date().valueOf() + (Math.random() * 100)}`
+				let idString = `${new Date().valueOf() + (Math.floor(Math.random() * 100))}`
 				node.setAttribute("id", idString)
-				console.log(node)
 				toolTip(idString)
 			}).catch(function(err){
 				console.log(err)
