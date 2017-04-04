@@ -13,7 +13,12 @@ import walker from './walker';
 let apps = [amazon]
 let utils = [walker]
 
-load(apps, utils)
+libx.events.addListener("EditionConfigurationLoaded", {
+    onEditionConfigurationLoaded: function () {
+        load(apps, utils)
+    }
+});
+
 
 function load(apps, utils){
 

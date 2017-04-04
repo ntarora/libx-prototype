@@ -27,14 +27,12 @@ export default function addToolTip(nodeName) {
         interactive: true,
         contentAsHTML: true
     })
-
+    getToolTipConent(isbn, $lookup, $xisbnResult)
 }
 
-function getToolTipConent(isbn) {
+function getToolTipConent(isbn, $lookup, $xisbnResult) {
     var cat = libx.edition.catalogs.primary;
     var url;
-    var lookupString;
-    var xisbnResultString;
     if (cat.supportsSearchType('i')) {
         // this method handles xISBN if configured
         url = cat.linkByISBN(isbn);
@@ -47,12 +45,12 @@ function getToolTipConent(isbn) {
         isbn: isbn,
         ifFound: function (text, metadata) {
             //write to the tool to tip when found
-            //$lookup.text(isbn + " refers to: " + text);
+            $lookup.text(isbn + " refers to: " + text);
             //askForILL.note({metadata: metadata});
         },
         notFound: function () {
                // write to the tooltip not found
-            //$lookup.html("This ISBN is not known to OCLC. No metadata is available.");
+            $lookup.html("This ISBN is not known to OCLC. No metadata is available.");
         }
     });
 
@@ -63,24 +61,24 @@ function getToolTipConent(isbn) {
 
                 var nEditions = editions.split(",").length;
                 //write after editions have been found in summon write to the tool tip
-                //$xisbnResult.html(nEditions + " editions of this item have been published.");
+                $xisbnResult.html(nEditions + " editions of this item have been published.");
 
-                //var $summon = $("&lt;p&gt;").text("Checking holdings of all editions in " + cat.name + "...");
-                //$xisbnResult.after($summon);
+                var $summon = $("<p>").text("Checking holdings of all editions in " + cat.name + "...");
+                $xisbnResult.after($summon);
 
-                // var searchInputs = [];
-                // var searchInput = {};
-                // searchInput.searchTerms = editions.replace(/,/g, " ");
-                // searchInput.searchType = 'i';
-                //
-                // searchInputs.push(searchInput);
-                // var output = {
-                //     searchparams: searchInputs,
-                //     placeholder: $summon
-                // };
-                //
-                // libx.space.write(output);
-                // libx.space.write({issearchlibapp: false});
+                var searchInputs = [];
+                var searchInput = {};
+                searchInput.searchTerms = editions.replace(/,/g, " ");
+                searchInput.searchType = 'i';
+
+                searchInputs.push(searchInput);
+                var output = {
+                    searchparams: searchInputs,
+                    placeholder: $summon
+                };
+
+                libx.space.write(output);
+                libx.space.write({issearchlibapp: false});
 
             }
         });
