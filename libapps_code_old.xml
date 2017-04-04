@@ -3056,7 +3056,9 @@ var $xisbnResult = $("&lt;p style='padding-top:5px;'&gt;");
 $tooltip.append($xisbnResult);
 
 /* Check for other editions only if we can use it, say to search Summon for all of them.
- * Otherwise, xISBN via liblookup might be sufficient.
+ * Otherwise, xISBN via libn
+
+        lookup might be sufficient.
  */
 
 $tooltip.bind('tooltip-shown', function () {
