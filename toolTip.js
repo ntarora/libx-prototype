@@ -3,6 +3,7 @@
  */
 require("./tooltipster.bundle.min.css");
 require("./tooltipster-sideTip-light.min.css");
+import addSummonHTML from './summonResultsAsHTML';
 var tooltipster = require("./tooltipster.bundle.min")($);
 
 
@@ -27,10 +28,10 @@ export default function addToolTip(nodeName) {
         interactive: true,
         contentAsHTML: true
     })
-    getToolTipConent(isbn, $lookup, $xisbnResult)
+    getToolTipContent(isbn, $lookup, $xisbnResult)
 }
 
-function getToolTipConent(isbn, $lookup, $xisbnResult) {
+function getToolTipContent(isbn, $lookup, $xisbnResult) {
     var cat = libx.edition.catalogs.primary;
     var url;
     if (cat.supportsSearchType('i')) {
@@ -64,22 +65,19 @@ function getToolTipConent(isbn, $lookup, $xisbnResult) {
                 $xisbnResult.html(nEditions + " editions of this item have been published.");
 
                 var $summon = $("<p>").text("Checking holdings of all editions in " + cat.name + "...");
-                $xisbnResult.after($summon);
+                $xisbnResult.append($summon);
+
 
                 var searchInputs = [];
                 var searchInput = {};
                 searchInput.searchTerms = editions.replace(/,/g, " ");
                 searchInput.searchType = 'i';
 
-                searchInputs.push(searchInput);
-                var output = {
-                    searchparams: searchInputs,
-                    placeholder: $summon
-                };
-
-                libx.space.write(output);
-                libx.space.write({issearchlibapp: false});
-
+                searchInputs.push(searchInput)
+                for(var i = 0; i < searchInputs.length; i++)
+                {
+                    addSummonHTML($summon, searchInputs[i].searchTerms)
+                }
             }
         });
     }

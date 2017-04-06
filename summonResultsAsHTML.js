@@ -14,102 +14,94 @@
  <content type="html">This module is used to fetch and render the search results from the summon proxy service. The data is first fetched from summon proxy, then it is looped over and HTML is constructed with the help of ‘Format a Summon Result Record’ and is added to the placeholder.</content>
  <libx:module>
  */
-export default function addSummonHTML($placehodler, query) {
+export default function addSummonHTML($placeholder, queryS) {
     let issummonprxyavail = 'summonproxyurl' in libx.edition.catalogs.primary;
-    var issummonprxyavail = (tuple.summoncatalog.summonproxyurl != null);
-if (!(libx.prefs.browser.showsummonwidget &amp;&amp; (libx.prefs.browser.showsummonwidget._value || !issummonprxyavail))) {
+    if (!(libx.prefs.browser.showsummonwidget && (libx.prefs.browser.showsummonwidget._value || !issummonprxyavail))) {
 
-    var summonprxyurl = tuple.summoncatalog.summonproxyurl;
+        let summonprxyurl = libx.edition.catalogs.primary.summonproxyurl;
+        let query = queryS.split(" ")[0]
+        libx.cache.defaultMemoryCache.get({
+            url: summonprxyurl + "?s.q=" + query,
+            dataType: "json",
+            success: function (data) {
+                var title = '';
+                var length = data.documents.length;
 
-    libx.cache.defaultMemoryCache.get({
-     url: summonprxyurl+"?s.q="+tuple.query,
-     dataType: "json",
-     success: function (data) {
+                if (length == 0) {
+                    return;
+                }
+                var displayResult = [];
 
-        var title = '';
-        var length = data.documents.length;
+                for (var i = 0; i < length; i++) {
+                    displayResult.push(data.documents[i]);
+                }
+                var $mesg = $placeholder;
+                var $cHead = $("<div style='font-size: 16px;'><b>Search Results</b></div>");
+                var $cBody = $("<div style='width:400px;height:250px;overflow-y:auto;overflow-x:hidden;'></div>");
+                var $cViewAll = $("<div></div>");
 
-        if (length == 0) {
-            return;
-        }
-        var displayResult = [];
+                $mesg.append($cHead);
+                $mesg.append($cBody);
 
-        for (var i=0; i &lt; length;i++) {
-            displayResult.push(data.documents[i]);
-        }
-        var $mesg = tuple.placeholder;
-        var $cHead = $("&lt;div style='font-size: 16px;'&gt;&lt;b&gt;Search Results&lt;/b&gt;&lt;/div&gt;");
-        var $cBody = $("&lt;div style='width:400px;height:250px;overflow-y:auto;overflow-x:hidden;'&gt;&lt;/div&gt;");
-        var $cViewAll = $("&lt;div&gt;&lt;/div&gt;");
+                $cBody.html('');
+                for (var i = 0; i < displayResult.length; i++) {
+                    formatRecord({
+                        summonRecord: displayResult[i],
+                        location: $cBody
+                    });
+                }
+                $mesg.append($cViewAll);
 
-        $mesg.append($cHead);
-        $mesg.append($cBody);
+                var summonUrl = libx.edition.catalogs.primary.makeKeywordSearch(query);
 
-        $cBody.html('');
-        for (var i =0;i&lt; displayResult.length; i++) {
-            libx.space.write({
-                 summonRecord: displayResult[i],
-                 location :  $cBody
-            });
-        }
-
-        $mesg.append($cViewAll);
-
-        var summonUrl = tuple.summoncatalog.makeKeywordSearch(tuple.query);
-
-        $cViewAll.append("&lt;div style='font-size: 13px;'&gt;&lt;b&gt;&lt;a href="+summonUrl+" style='color:#693232;'&gt;View Complete Results through Summon&lt;/a&gt;&lt;/b&gt;&lt;/div&gt;");
-        libx.space.write({
-            summonresult: $mesg,
-            summondata: data,
-            summoncatalog: tuple.summoncatalog,
-            issummonwidget: false
+                $cViewAll.append("<div style='font-size: 13px;'><b><a href=" + summonUrl + " style='color:#693232;'>View Complete Results through Summon</a></b></div>");
+            }
         });
     }
-});
-} else {
-    libx.space.write(tuple);
-
+    else {
+                //libx.space.write(tuple);
+    }
 }
+
 /**
  *
  * @param record : summonRecord, location
  */
-function formatRecord(record)
-{
+function formatRecord(record) {
     var doc = record.summonRecord;
     var $dst = record.location;
     var availPlaceholders = record.availabilityPlaceholders;
 
     function c(s) {
-        return s.replace(/&lt;h&gt;/, "").replace(/&lt;\/h&gt;/, "");
+        return s.replace(/<h>/, "").replace(/<\/h>/, "");
     }
 
-    var $l = $("&lt;div style='clear: both'&gt;");
+    var $l = $("<div style='clear: both'>");
     if (doc.thumbnail_m) {
-        $l.append("&lt;img style='float:left; padding: 5px' src='" + doc.thumbnail_m + "'&gt;");
+        $l.append("<img style='float:left; padding: 5px' src='" + doc.thumbnail_m + "'>");
     }
 
-    doc.ContentType &amp;&amp; $l.append($("&lt;b&gt;").text(doc.ContentType[0]));
+    doc.ContentType && $l.append($("<b>").text(doc.ContentType[0]));
     if (doc.Title) {
         $l.append(" ");
-        $l.append($("&lt;a&gt;").text(c(doc.Title[0])).attr('href', doc.link));
+        $l.append($("<a>").text(c(doc.Title[0])).attr('href', doc.link));
         // TBD count clicks
         // TBD: in some cases, this leads to an abstract only.
     }
 
     if (doc.PublicationTitle) {
-        $l.append(", ").append($("&lt;i&gt;").text(c(doc.PublicationTitle[0])));
+        $l.append(", ").append($("<i>").text(c(doc.PublicationTitle[0])));
     }
 
     /* PublicationDate may be 2012-00-00 if month/day is not known */
-    doc.PublicationDate &amp;&amp; $l.append("; published " + doc.PublicationDate[0].replace("-00-00", ""));
-    if (doc.availabilityId &amp;&amp; availPlaceholders) {
-        $l.append("&lt;br /&gt;");
-        $l.append(availPlaceholders[doc.availabilityId] = $("&lt;span&gt;"));
+    doc.PublicationDate && $l.append("; published " + doc.PublicationDate[0].replace("-00-00", ""));
+    if (doc.availabilityId && availPlaceholders) {
+        $l.append("<br />");
+        $l.append(availPlaceholders[doc.availabilityId] = $("<span>"));
     }
     if (doc.inHoldings && doc.hasFullText && doc.link) {
-        $l.append('&amp;nbsp;&lt;a href="' + doc.link + '"&gt;Full Text Available Online&lt;/a&gt;');
+        $l.append('&nbsp;<a href="' + doc.link + '">Full Text Available Online</a>');
     }
-    $l.append("&lt;hr width='80%'&gt;");
+    $l.append("<hr width='80%'>");
     $dst.append($l);
 }

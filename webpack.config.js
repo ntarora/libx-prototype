@@ -4,7 +4,7 @@
  module.exports = {
      entry: './loader.js',
      output: {
-         path: path.resolve(__dirname, 'build'),
+         path: path.resolve('../libx/libx_unpacked_v2.0.17186/core/global/shared'),
          filename: 'bundle.js'
      },
      module: {
