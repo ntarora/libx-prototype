@@ -117,6 +117,94 @@ class Walker {
 		})
 	}
 
+
+	walkTree2()
+	{
+        let walker = document.createTreeWalker(window.document.documentElement, NodeFilter.SHOW_ALL, this.rejectScriptTextFilter, false)
+        let nodeList = []
+		function *startWalkerLoop (){
+            for(let c = 0; walker.nextNode(); c++)
+            {
+                if(c % 20 == 0)
+                {
+                    yield new Promise((fulfill, reject) => {
+                        setTimeout(()=>fulfill(), 10);
+                    })
+                }
+                if(walker.currentNode.nodeType != 3)
+                	continue;
+
+
+
+                for(let app of self.apps)
+                {
+                    // let regex = new RegExp(pattern)
+                    // let match = regex.exec(walker.currentNode.text.data)
+                    // if(match)
+                    // {
+                    // 	nodeList.push(currentNode);
+                    // }
+                    if(walker.currentNode.data)
+                    {
+                    	//regex loop
+                        let result = app.regex(walker.currentNode.data)
+                        if(result)
+                        {
+                        	yield app.fire(result)
+							//set current node to the replaced node's sibling or parent.
+                            //app.nodeList.push(walker.currentNode);
+
+                        }
+                    }
+
+                }
+
+            }
+		}
+		Promise.coroutine(startWalkerLoop())
+
+        let self = this
+            let matches = 0;
+            //walk the nodes match regex patterns in the node list
+            while(walker.nextNode())
+            {
+                if(walker.currentNode.nodeType == 3)
+                {
+                    for(let app of self.apps)
+                    {
+                        // let regex = new RegExp(pattern)
+                        // let match = regex.exec(walker.currentNode.text.data)
+                        // if(match)
+                        // {
+                        // 	nodeList.push(currentNode);
+                        // }
+                        if(walker.currentNode.data)
+                        {
+                            let result = app.regex(walker.currentNode.data)
+                            if(result)
+                            {
+                                app.nodeList.push(walker.currentNode);
+
+                            }
+                        }
+
+                    }
+                }
+
+            }
+            return new Promise((fulfill, reject) => {
+                if(matches > 0)
+                    fulfill(true);
+                else
+                    reject(false)
+            })
+
+        })
+            .catch(function(err){
+                console.log(err);
+            })
+
+
 }
 
 export default new Walker();
